@@ -908,7 +908,7 @@ Feature: SETUP
     Then Check mandatory message is displayed or not in add news feeds Page
     Then Close the Setup Page
 
-    @TC_62
+  @TC_62
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
@@ -919,13 +919,12 @@ Feature: SETUP
     Then Click edit button in Investor Page
     And Click news feeds button in Investor Page
     And Click edit feeds button in edit investor page
-    Then Clear the title details in edit investor page
     Then Modify valid details in edit news feeds page
     Then Click upload button in add news feeds page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
 
-    @TC_63
+  @TC_63
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
@@ -936,9 +935,9 @@ Feature: SETUP
     Then Click edit button in Investor Page
     And Click Investor Representative button in Investor Page
     Then Click check all button in Investor Representative page
-   Then Close the Setup Page
+    Then Close the Setup Page
 
-    @TC_64
+  @TC_64
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
@@ -951,7 +950,7 @@ Feature: SETUP
     Then Click clear all button in Investor Representative page
     Then Close the Setup Page
 
-    @TC_65
+  @TC_65
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
@@ -962,6 +961,454 @@ Feature: SETUP
     Then Click edit button in Investor Page
     And Click Investor Representative button in Investor Page
     Then Select valid checkbox in Investor Representative page
-     Then Click actions button in edit investor page
+    Then Click actions button in edit investor page
     And Click submit button in Investor Representative page
-   Then Close the Setup Page
+    Then Close the Setup Page
+
+  @TC_66
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Select valid status "All" in Customer Group Page
+    And Select valid status "Enabled" in Customer Group Page
+    Then Select valid status "Disabled" in Customer Group Page
+    Then Close the Setup Page
+
+  @TC_67
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Enter valid name "Test" in searchbox in Customer Group Page
+    Then Close the Setup Page
+
+  @TC_68
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Click add button in Customer Group Page
+    And Click close button in Add Customer Group Page
+    Then Close the Setup Page
+
+  @TC_69
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Click add button in Customer Group Page
+    And Click save button in Add Customer Group Page
+    Then Check mandatory message is displayed or not in Add Customer Group Page
+    Then Close the Setup Page
+
+  @TC_70
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Click add button in Customer Group Page
+    And Select valid installer "Test Client" name in Add Customer Group Page
+    Then Enter valid group name "Test" in Add Customer Group Page
+    And Click clear button in Add Customer Group Page
+    Then Check group name is clear or not in Add Customer Group Page
+    Then Close the Setup Page
+
+  @TC_71
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Click add button in Customer Group Page
+    And Select valid installer "Test Client" name in Add Customer Group Page
+    Then Enter valid group name "Test" in Add Customer Group Page
+    And Click save button in Add Customer Group Page
+    Then Check success message is displayed or not in Add Customer Group Page
+    Then Close the Setup Page
+
+  @TC_72
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Enter valid name "Test" in searchbox in Customer Group Page
+    Then Click edit button in Customer Group Page
+    And Click clear button in edit Customer Group Page
+    Then Check group name is clear or not in edit Customer Group Page
+    Then Close the Setup Page
+
+  @TC_73
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Enter valid name "Test" in searchbox in Customer Group Page
+    Then Click edit button in Customer Group Page
+    And Click clear button in edit Customer Group Page
+    Then Click update button in edit Customer Group Page
+    Then Check mandatory message is displayed or not in edit Customer Group Page
+    Then Close the Setup Page
+
+  @TC_74
+  Scenario: Setup:Customer Group
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click Customer Group button
+    Then Enter valid name "Test" in searchbox in Customer Group Page
+    Then Click edit button in Customer Group Page
+    And Modify valid details in edit Customer Group Page
+    Then Click update button in edit Customer Group Page
+    Then Check success message is displayed or not in edit Customer Group Page
+    Then Close the Setup Page
+
+  @TC_75
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Select valid status "All" in API Setup Page
+    And Select valid status "Enabled" in API Setup Page
+    Then Select valid status "Disabled" in API Setup Page
+    Then Close the Setup Page
+
+  @TC_76
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Enter valid name "Test" in searchbox in API Setup Page
+    Then Close the Setup Page
+
+  @TC_77
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    And Click close button in Add CRM Setup Details popup
+    Then Close the Setup Page
+
+  @TC_78
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    And Click save button in Add CRM Setup Details popup
+    #  Then Check mandatory message is displayed or not in Add CRM Setup Details popup
+    Then Close the Setup Page
+
+  @TC_79
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    And Select valid installer "Test Client" name in Add CRM Setup Details popup
+    Then Select valid CRM name "Test" in Add CRM Setup Details popup
+    And Upload valid file in Add CRM Setup Details popup
+    And Click clear button in Add CRM Setup Details popup
+    Then Check group name is clear or not in Add CRM Setup Details popup
+    Then Close the Setup Page
+
+  @TC_80
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    And Select valid installer "Test Client" name in Add CRM Setup Details popup
+    Then Select valid CRM name "Test" in Add CRM Setup Details popup
+    And Upload valid file in Add CRM Setup Details popup
+    And Click save button in Add Customer Group Page
+    Then Check success message is displayed or not in Add CRM Setup Details popup
+    Then Close the Setup Page
+
+  @TC_81
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    Then Click add button in CRM name field
+    And Click close button in Add CRM name
+    Then Close the Setup Page
+
+  @TC_82
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    Then Click add button in CRM name field
+    And Enter valid CRM Name in CRM name field
+    And Click clear button in Add CRM name pop up
+    Then Close the Setup Page
+
+  @TC_83
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    Then Click add button in CRM name field
+    And Enter valid CRM Name in CRM name field
+    And Click save button in Add CRM name pop up
+    Then Close the Setup Page
+
+  @TC_84
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click add button in API Setup Page
+    And Select valid CRM name "Test" in Add CRM Setup Details popup
+    Then Click edit button in CRM name field
+    And Modify valid details in edit CRM name field
+    And Click save button in edit CRM name pop up
+    Then Close the Setup Page
+
+  @TC_85
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click API Key button in API Setup Page
+    Then Click clear button in API key tab
+    Then Close the Setup Page
+
+  @TC_86
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click API Key button in API Setup Page
+    Then Click clear button in API key tab
+    And Click update button in API key tab
+    Then Check mandatory message is displayed or not in API key tab
+    Then Close the Setup Page
+
+  @TC_87
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click API Key button in API Setup Page
+    Then Modify valid details in API key tab
+    And Click update button in API key tab
+    Then Check mandatory message is displayed or not in API key tab
+    Then Close the Setup Page
+
+  @TC_88
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Application Login button in API Setup Page
+    Then Click clear button in Application Login tab
+    Then Close the Setup Page
+
+  @TC_89
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Application Login button in API Setup Page
+    Then Click clear button in Application Login tab
+    And Click update button in Application Login tab
+    Then Check mandatory message is displayed or not in Application Login tab
+    Then Close the Setup Page
+
+  @TC_90
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Application Login button in API Setup Page
+    Then Modify valid details in Application Login tab
+    And Click update button in Application Login tab
+    Then Check mandatory message is displayed or not in Application Login tab
+    Then Close the Setup Page
+
+  @TC_91
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Data Refresh button in API Setup Page
+    Then Modify the details in Data Refresh
+    And Click save button in Data Refresh
+    Then Check success message is displayed or not in Data Refresh
+    Then Close the Setup Page
+
+  @TC_92
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Data Refresh button in API Setup Page
+    Then Click view log button in data refresh
+    And Click close button in data refresh
+    Then Close the Setup Page
+
+  @TC_93
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Scheduler log button in API Setup Page
+    Then Select valid from date in Scheduler log
+    Then Close the Setup Page
+
+  @TC_94
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Customers button in API Setup Page
+    And Click edit button in customers
+    Then Click Sync Customer button in customers
+    # Then Check success message is displayed or not in Sync Customer
+    Then Close the Setup Page
+
+  @TC_95
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Customers button in API Setup Page
+    And Click edit button in customers
+    Then Click Deactivate API Call button in customers
+    And Click close button in confirmation pop up
+    Then Close the Setup Page
+
+  @TC_96
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Customers button in API Setup Page
+    And Click edit button in customers
+    Then Click Deactivate API Call button in customers
+    And Click yes button in confirmation pop up
+    Then Check mandatory message is displayed or not in Sync Customer
+    Then Close the Setup Page
+
+  @TC_97
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Customers button in API Setup Page
+    And Click edit button in customers
+    Then Enter valid "1" details in first year production
+    And Enter valid "1" details in Product Escalation
+    Then Click Deactivate API Call button in customers
+    And Click no button in confirmation pop up
+    Then Close the Setup Page
+
+  @TC_98
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click Customers button in API Setup Page
+    And Click edit button in customers
+    Then Enter valid "1" details in first year production
+    And Enter valid "1" details in Product Escalation
+    Then Click Deactivate API Call button in customers
+    And Click yes button in confirmation pop up
+    Then Check success message is displayed or not in Sync Customer
+    Then Close the Setup Page
+
+     @TC_99
+  Scenario: Setup:API Setup
+    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Setup
+    Then Click the Setup button
+    And Click API Setup button
+    Then Click edit button in API Setup Page
+    And Click action button in API Setup Page
+    Then Click back button in API Setup Page
+    Then Close the Setup Page
