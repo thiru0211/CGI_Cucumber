@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\CGI_Cucumber_Project\\src\\test\\resources\\featureFiles\\CGI_Schedulers.feature",
 glue = "com.CGI.Stepdefinition",
-//monochrome = true,
+monochrome = true,
 //dryRun = true,
 //tags="@TC_23",
 plugin = {"pretty","html:Reports/TestReport.html",
