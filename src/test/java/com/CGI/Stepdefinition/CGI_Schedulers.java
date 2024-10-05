@@ -36,7 +36,7 @@ public class CGI_Schedulers {
 	public void to_check_Timesheet_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+//		option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -94,7 +94,8 @@ public class CGI_Schedulers {
 		ele.click();
 	}
 	@Then("Select valid installer {string} in ACH Scheduler Log")
-	public void select_valid_installer_in_ach_scheduler_log(String Installer) {
+	public void select_valid_installer_in_ach_scheduler_log(String Installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("status")));
 		ele = driver.findElement(By.name("status"));
@@ -102,7 +103,8 @@ public class CGI_Schedulers {
 		sel.selectByVisibleText(Installer);
 	}
 	@Then("Select valid date in start date calendar")
-	public void select_valid_date_in_start_date_calendar() {
+	public void select_valid_date_in_start_date_calendar() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-solid']"));
@@ -118,7 +120,8 @@ public class CGI_Schedulers {
         ele.sendKeys(formattedDate);
 	}
 	@Then("Click view button in the grid")
-	public void click_view_button_in_the_grid() {
+	public void click_view_button_in_the_grid() throws InterruptedException {
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='text-dark text-hover-primary  fs-6 cursor-pointer ']")));
 		ele = driver.findElement(By.xpath("//a[@class='text-dark text-hover-primary  fs-6 cursor-pointer ']"));
@@ -326,7 +329,8 @@ public class CGI_Schedulers {
 		ele.click();
 	}
 	@Then("Select valid email signature in ACH Scheduler page")
-	public void select_valid_email_signature_in_ach_scheduler_page() {
+	public void select_valid_email_signature_in_ach_scheduler_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("status")));
 		ele = driver.findElement(By.name("status"));

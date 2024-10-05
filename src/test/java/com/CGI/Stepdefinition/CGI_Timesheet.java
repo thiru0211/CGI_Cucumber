@@ -34,7 +34,7 @@ public class CGI_Timesheet {
 	public void to_check_Timesheet_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+//		option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);

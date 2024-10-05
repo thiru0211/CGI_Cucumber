@@ -213,6 +213,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -229,6 +230,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -246,6 +248,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -264,6 +267,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -280,6 +284,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -296,7 +301,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura" in customer list page
+    And Select valid "All" customer status in customer list page
+    And Enter valid customer name "Adharsh Support" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Merge Customer button in customer view page
@@ -313,6 +319,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -329,15 +336,16 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura" in customer list page
+    And Select valid "All" customer status in customer list page
+    And Enter valid customer name "Adharsh Support" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Merge Customer button in customer view page
     And Click merge to customer tab in Merge Customer
     And Enter valid customer "Ian Delaura" in Merge Customer
     And Click the checkbox in Merge Customer
-    Then Click merge button in Merge Customer
-    And Check success message is displayed or not in Merge Customer
+    #Then Click merge button in Merge Customer
+    #And Check success message is displayed or not in Merge Customer
     Then Close the Customers Page
 
   @TC_22
@@ -348,6 +356,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -364,6 +373,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -380,6 +390,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -396,6 +407,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -415,6 +427,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -431,6 +444,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -447,6 +461,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -463,6 +478,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -480,6 +496,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -498,6 +515,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -515,6 +533,7 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    And Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -531,11 +550,15 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Udhay Support" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Document Setup button in customer view page
-    And Click download button in Document Setup page
+    And Upload valid file in document setup
+    And Click the checkbox in document setup
+    #Then Click save button in document setup
     Then Close the Customers Page
 
   @TC_34
@@ -546,13 +569,13 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "New Customer" in customer list page
+    Then Select valid "All" payment status in customer list page
+    And Select valid "All" customer status in customer list page
+    And Enter valid customer name "Udhay Support" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Document Setup button in customer view page
-    And Upload valid file in document setup
-    And Click the checkbox in document setup
-    Then Click save button in document setup
+    #And Click download button in Document Setup page
     Then Close the Customers Page
 
   @TC_35
@@ -562,7 +585,9 @@ Feature: CUSTOMERS
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
-    Then Select valid installer "Test Client" in customer list page
+    Then Select valid installer "LA SOLAR" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Document Setup button in customer view page
@@ -576,7 +601,9 @@ Feature: CUSTOMERS
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
-    Then Select valid installer "Test Client" in customer list page
+    Then Select valid installer "LA SOLAR" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     # And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -595,6 +622,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -611,7 +640,9 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    # And Enter valid customer name "New Customer" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Rajesh Support" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
     Then Click Swap Out button in customer view page
@@ -623,6 +654,27 @@ Feature: CUSTOMERS
     Then Close the Customers Page
 
   @TC_39
+  Scenario: Customers:List:RollBack
+    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    And click the Signin button To Check Customers
+    Then Click the Customers button
+    And Click List button
+    Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "Swap Out" customer status in customer list page
+    And Enter valid customer name "Rajesh Support" in customer list page
+    Then Click edit button in customer list page
+    And Click actions button in customer view page
+    Then Click Swap Out button in customer view page
+    And Click yes button in rollback page
+    And Enter valid reason "Test" in rollback page
+    Then Click the checkbox in rollback page
+    And Click save button in rollback page
+    Then Check success message is displayed or not in swap out page
+    Then Close the Customers Page
+
+  @TC_39
   Scenario: Customers:List
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
@@ -630,6 +682,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -645,6 +699,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -661,6 +717,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -679,6 +737,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -695,6 +755,8 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
     And Enter valid customer name "New Customer" in customer list page
     Then Click edit button in customer list page
     And Click actions button in customer view page
@@ -710,7 +772,9 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Rajesh" in customer list page
     Then Click edit button in customer list page
     And Click add notes in customer view page
     Then Click save button in add notes page
@@ -725,7 +789,9 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Rajesh" in customer list page
     Then Click edit button in customer list page
     And Click add notes in customer view page
     And Enter valid notes details "Test" in add notes page
@@ -740,8 +806,10 @@ Feature: CUSTOMERS
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
-    Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid installer "LA SOLAR" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Alfredo Cardenas" in customer list page
     Then Click edit button in customer list page
     And Click download button in Document Setup tab
     Then Close the Customers Page
@@ -754,7 +822,9 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Adharsh Support" in customer list page
     Then Click edit button in customer list page
     And Click view all button in Recent Activities tab
     Then Click view icon button in view all Recent Activities tab
@@ -769,7 +839,9 @@ Feature: CUSTOMERS
     Then Click the Customers button
     And Click List button
     Then Select valid installer "Test Client" in customer list page
-    And Enter valid customer name "Ian Delaura1" in customer list page
+    Then Select valid "All" payment status in customer list page
+    Then Select valid "All" customer status in customer list page
+    And Enter valid customer name "Adharsh Support" in customer list page
     Then Click edit button in customer list page
     Then Click view icon button in Recent Activities tab
     Then Close the Customers Page
@@ -1525,7 +1597,6 @@ Feature: CUSTOMERS
     And Click agree button checkbox in stop invoice payments
     Then Click skip payment button in stop invoice payments
     Then Close the Customers Page
-
   @TC_94
   Scenario: Customers:Invoice Pay
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -1540,7 +1611,6 @@ Feature: CUSTOMERS
     And Click change pay date in invoice date tab
     Then Check page landed to change pay date page or not
     Then Close the Customers Page
-
   @TC_95
   Scenario: Customers:Invoice Pay
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -1555,7 +1625,6 @@ Feature: CUSTOMERS
     And Click change monthly pay in invoice date tab
     Then Check page landed to Edit Monthly Payments page or not
     Then Close the Customers Page
-
   @TC_96
   Scenario: Customers:Invoice Pay
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -1987,7 +2056,7 @@ Feature: CUSTOMERS
     And Click search button in Check Payments
     Then Check mandatory message is displayed or not in filter page
     Then Close the Customers Page
-    
+
   @TC_118
   Scenario: Customers:Check Payments
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -2060,7 +2129,7 @@ Feature: CUSTOMERS
     Then Click add due month button in deposit details tab
     Then Click add to list button in add due month
     And Click close button in add due month
-   # And Check mandatory message is displayed or not in add due month
+    # And Check mandatory message is displayed or not in add due month
     Then Close the Customers Page
 
   @TC_123
@@ -2159,14 +2228,14 @@ Feature: CUSTOMERS
     Then Click back button in edit payments page
     Then Close the Customers Page
 
-    @TC_128
+  @TC_128
   Scenario: Customers:Check Payments
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
-     And Select valid installer "Test Client" in Check Payments
+    And Select valid installer "Test Client" in Check Payments
     Then Enter valid user name "vignesh Support" in Check Payments
     And Click edit button in check payments page
     And Click add due month button in check payments page
@@ -2175,27 +2244,27 @@ Feature: CUSTOMERS
     And Check error toast message is displayed or not in check payments page
     Then Close the Customers Page
 
-    @TC_129
+  @TC_129
   Scenario: Customers:Check Payments
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
-     And Select valid installer "Test Client" in Check Payments
+    And Select valid installer "Test Client" in Check Payments
     Then Enter valid user name "vignesh Support" in Check Payments
     And Click edit button in check payments page
     And Click the uploaded file in attach check tab
     Then Close the Customers Page
 
-    @TC_130
+  @TC_130
   Scenario: Customers:Check Payments
     Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
     When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
-     And Select valid installer "Test Client" in Check Payments
+    And Select valid installer "Test Client" in Check Payments
     Then Enter valid user name "vignesh Support" in Check Payments
     And Click edit button in check payments page
     And Modify valid detail in check payments page

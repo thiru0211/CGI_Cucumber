@@ -34,7 +34,7 @@ public class CGI_Admin {
 	public void to_check_admin_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+//		option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -307,7 +307,8 @@ public class CGI_Admin {
 	}
 
 	@And("Check and accept the confirmation page in edit user")
-	public void check_and_accept_the_confirmation_page_in_edit_user() {
+	public void check_and_accept_the_confirmation_page_in_edit_user() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Ok, got it!']")));
 		ele = driver.findElement(By.xpath("//button[text()='Ok, got it!']"));

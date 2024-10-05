@@ -39,7 +39,7 @@ public class CGI_Customers {
 	public void to_check_Timesheet_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+//		option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -128,7 +128,7 @@ public class CGI_Customers {
 
 	@Then("Click actions button in customer list page")
 	public void click_actions_button_in_customer_list_page() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Actions']")));
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
@@ -198,7 +198,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in add list page")
-	public void select_valid_installer_in_add_list_page(String installer) {
+	public void select_valid_installer_in_add_list_page(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("client")));
 		ele = driver.findElement(By.id("client"));
@@ -293,7 +294,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Click actions button in add list page")
-	public void click_actions_button_in_add_list_page() {
+	public void click_actions_button_in_add_list_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Actions']")));
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
@@ -430,7 +432,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in customer list page")
-	public void select_valid_installer_in_customer_list_page(String client) {
+	public void select_valid_installer_in_customer_list_page(String client) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("installer")));
 		ele = driver.findElement(By.name("installer"));
@@ -440,7 +443,7 @@ public class CGI_Customers {
 
 	@Then("Click edit button in customer list page")
 	public void click_edit_button_in_customer_list_page() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
 				"//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']")));
@@ -450,10 +453,46 @@ public class CGI_Customers {
 	}
 
 	@Then("Click actions button in customer view page")
-	public void click_actions_button_in_customer_view_page() {
+	public void click_actions_button_in_customer_view_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Actions']")));
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
+		ele.click();
+	}
+
+	@Then("Click yes button in rollback page")
+	public void click_yes_button_in_rollback_page() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("yes")));
+		ele = driver.findElement(By.name("yes"));
+		ele.click();
+	}
+
+	@Then("Enter valid reason {string} in rollback page")
+	public void enter_valid_reason_in_rollback_page(String string) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//textarea[@class='form-control form-control-solid']")));
+		ele = driver.findElement(By.xpath("//textarea[@class='form-control form-control-solid']"));
+		ele.sendKeys("Test");
+	}
+
+	@Then("Click the checkbox in rollback page")
+	public void click_the_checkbox_in_rollback_page() throws InterruptedException {
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//input[@class='form-check-input cursor-pointer'][@type='checkbox']")));
+		ele = driver.findElement(By.xpath("//input[@class='form-check-input cursor-pointer'][@type='checkbox']"));
+		ele.click();
+	}
+
+	@Then("Click save button in rollback page")
+	public void click_save_button_in_rollback_page() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Save']")));
+		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
 
@@ -658,7 +697,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Click back button in View Received Payments page")
-	public void click_back_button_in_view_received_payments_page() {
+	public void click_back_button_in_view_received_payments_page() throws InterruptedException {
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Back']")));
 		ele = driver.findElement(By.xpath("//div[text()='Back']"));
@@ -777,7 +817,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Click back button in OS Double Payments page")
-	public void click_back_button_in_os_double_payments_page() {
+	public void click_back_button_in_os_double_payments_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Back']")));
 		ele = driver.findElement(By.xpath("//div[text()='Back']"));
@@ -821,7 +862,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Click Document Setup button in customer view page")
-	public void click_document_setup_button_in_customer_view_page() {
+	public void click_document_setup_button_in_customer_view_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Document setup']")));
 		ele = driver.findElement(By.xpath("//div[text()='Document setup']"));
@@ -1145,8 +1187,9 @@ public class CGI_Customers {
 	@Then("Click save button in add notes page")
 	public void click_save_button_in_add_notes_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Save']")));
-		ele = driver.findElement(By.xpath("//div[text()='Save']"));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//div[text()='Save'][@class='btn btn-primary btn-md']")));
+		ele = driver.findElement(By.xpath("//div[text()='Save'][@class='btn btn-primary btn-md']"));
 		ele.click();
 	}
 
@@ -1228,13 +1271,15 @@ public class CGI_Customers {
 	@Then("Click view icon button in Recent Activities tab")
 	public void click_view_icon_button_in_recent_activities_tab() throws InterruptedException {
 		Thread.sleep(1000);
-		ele = driver.findElement(By.xpath("//i[@class='fa fa-eye text-danger cursor-pointer']"));
+		ele = driver.findElement(By.xpath(
+				"/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[5]/div[3]/div[1]/table/tbody/tr[1]/td[6]/span/a"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", ele);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//i[@class='fa fa-eye text-danger cursor-pointer']")));
-		ele = driver.findElement(By.xpath("//i[@class='fa fa-eye text-danger cursor-pointer']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
+				"/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[5]/div[3]/div[1]/table/tbody/tr[1]/td[6]/span/a")));
+		ele = driver.findElement(By.xpath(
+				"/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[2]/div[2]/div[5]/div[3]/div[1]/table/tbody/tr[1]/td[6]/span/a"));
 		ele.click();
 	}
 
@@ -1256,7 +1301,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid form type {string} in ACH Form")
-	public void select_valid_form_type_in_ach_form(String Type) {
+	public void select_valid_form_type_in_ach_form(String Type) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("type")));
 		ele = driver.findElement(By.name("type"));
@@ -1274,7 +1320,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer name {string} in ACH Form")
-	public void select_valid_installer_name_in_ach_form(String InstallerName) {
+	public void select_valid_installer_name_in_ach_form(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("installer")));
 		ele = driver.findElement(By.name("installer"));
@@ -1337,7 +1384,7 @@ public class CGI_Customers {
 
 	@Then("Click update button in edit ACH form details")
 	public void click_update_button_in_edit_ach_form_details() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Update']")));
 		ele = driver.findElement(By.xpath("//button[text()='Update']"));
@@ -2051,7 +2098,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid tail {string} in ACH Form upload")
-	public void select_valid_tail_in_ach_form_upload(String Installer) {
+	public void select_valid_tail_in_ach_form_upload(String Installer) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("installer")));
 		ele = driver.findElement(By.id("installer"));
@@ -2100,7 +2148,7 @@ public class CGI_Customers {
 
 	@Then("Click download button in ACH Form Upload")
 	public void click_download_button_in_ach_form_upload() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[@class='text-center cursor-pointer']")));
 		ele = driver.findElement(By.xpath("//td[@class='text-center cursor-pointer']"));
@@ -2126,7 +2174,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in Invoice pay")
-	public void select_valid_installer_in_invoice_pay(String installer) {
+	public void select_valid_installer_in_invoice_pay(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("installer")));
 		ele = driver.findElement(By.name("installer"));
@@ -2638,7 +2687,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in Create Invoice")
-	public void select_valid_installer_in_create_invoice(String installer) {
+	public void select_valid_installer_in_create_invoice(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("installer")));
 		ele = driver.findElement(By.name("installer"));
@@ -3050,7 +3100,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in Check Payments")
-	public void select_valid_installer_in_check_payments(String installer) {
+	public void select_valid_installer_in_check_payments(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@name='status']")));
 		ele = driver.findElement(By.xpath("//select[@name='status']"));
@@ -3101,7 +3152,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Select valid installer {string} in filter page")
-	public void select_valid_installer_in_filter_page(String installer) {
+	public void select_valid_installer_in_filter_page(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//select[@class='form-select form-select-solid form-select-lg']")));
@@ -3111,7 +3163,8 @@ public class CGI_Customers {
 	}
 
 	@Then("Enter valid customer name {string} in filter page")
-	public void enter_valid_customer_name_in_filter_page(String customerName) {
+	public void enter_valid_customer_name_in_filter_page(String customerName) throws InterruptedException {
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
@@ -3161,8 +3214,7 @@ public class CGI_Customers {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView(true);", ele);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//button[@class='btn btn-light me-3 btn-md']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn-light me-3 btn-md']")));
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-light me-3 btn-md']"));
 		Thread.sleep(2000);
 		ele.click();
@@ -3245,7 +3297,8 @@ public class CGI_Customers {
 	@Then("Select valid due month in add due month")
 	public void select_valid_due_month_in_add_due_month() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
+		wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-solid']"));
 		// Get the current date
 		LocalDate currentDate = LocalDate.now();
@@ -3255,7 +3308,7 @@ public class CGI_Customers {
 
 		// Format the next month in the desired format
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM, yyyy");
-        String formattedNextMonth = nextMonth.format(formatter);
+		String formattedNextMonth = nextMonth.format(formatter);
 
 		System.out.println("Next month: " + formattedNextMonth);
 		ele.sendKeys(formattedNextMonth);
@@ -3280,14 +3333,15 @@ public class CGI_Customers {
 			System.out.println("No success message is displayed");
 		}
 	}
+
 	@Then("Enter valid number {string} in check number tab in check details")
 	public void enter_valid_number_in_check_number_tab_in_check_details(String number) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.name("check")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("check")));
 		ele = driver.findElement(By.name("check"));
 		ele.sendKeys(number);
 	}
+
 	@Then("Select valid date in check date tab in check details")
 	public void select_valid_date_in_check_date_tab_in_check_details() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -3301,20 +3355,21 @@ public class CGI_Customers {
 
 		// Format the next month in the desired format
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        String formattedTomorrow = nextMonth.format(formatter);
+		String formattedTomorrow = nextMonth.format(formatter);
 
 		System.out.println("Next month: " + formattedTomorrow);
 		Thread.sleep(2000);
 		ele.sendKeys(formattedTomorrow);
 	}
+
 	@Then("Enter valid amount {string} in check amount tab in check details")
 	public void enter_valid_amount_in_check_amount_tab_in_check_details(String amount) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.name("amount")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("amount")));
 		ele = driver.findElement(By.name("amount"));
 		ele.sendKeys(amount);
 	}
+
 	@Then("Select valid type {string} in account type in bank details")
 	public void select_valid_type_in_account_type_in_bank_details(String amounttype) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -3323,30 +3378,31 @@ public class CGI_Customers {
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(amounttype);
 	}
+
 	@Then("Enter valid name {string} in name on account tab in bank details")
 	public void enter_valid_name_in_name_on_account_tab_in_bank_details(String nameaccount) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.name("nameaccount")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("nameaccount")));
 		ele = driver.findElement(By.name("nameaccount"));
 		ele.sendKeys(nameaccount);
 	}
+
 	@Then("Enter valid number {string} in bank account number tab in bank details")
 	public void enter_valid_number_in_bank_account_number_tab_in_bank_details(String bankaccountnumber) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.name("bankaccountnumber")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("bankaccountnumber")));
 		ele = driver.findElement(By.name("bankaccountnumber"));
 		ele.sendKeys(bankaccountnumber);
 	}
+
 	@Then("Enter valid number {string} in bank routing number tab in bank details")
 	public void enter_valid_number_in_bank_routing_number_tab_in_bank_details(String bankroutingnumber) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.name("bankroutingnumber")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("bankroutingnumber")));
 		ele = driver.findElement(By.name("bankroutingnumber"));
 		ele.sendKeys(bankroutingnumber);
 	}
+
 	@Then("Select valid account {string} CGI Deposit account in deposit details tab")
 	public void select_valid_account_cgi_deposit_account_in_deposit_details_tab(String depositaccount) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -3355,15 +3411,17 @@ public class CGI_Customers {
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(depositaccount);
 	}
+
 	@Then("Click the robot checkbox in confirmation tab")
 	public void click_the_robot_checkbox_in_confirmation_tab() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(
 				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-check-input cursor-pointer']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-check-input cursor-pointer']"));
 		ele.click();
 	}
+
 	@Then("Check success message is displayed or not in add check payments page")
 	public void check_success_message_is_displayed_or_not_in_add_check_payments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -3376,29 +3434,30 @@ public class CGI_Customers {
 			System.out.println("No success message is displayed");
 		}
 	}
+
 	@Then("Click back button in edit payments page")
 	public void click_back_button_in_edit_payments_page() throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//button[@class='btn btn-light me-3 btn-md']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn-light me-3 btn-md']")));
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-light me-3 btn-md']"));
 		ele.click();
 	}
+
 	@Then("Click edit button in check payments page")
 	public void click_edit_button_in_check_payments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By
-				.xpath("//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']")));
-		ele = driver.findElement(By
-				.xpath("//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
+				"//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']")));
+		ele = driver.findElement(By.xpath(
+				"//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']"));
 		ele.click();
 	}
+
 	@Then("Clear the data in check number field")
 	public void clear_the_data_in_check_number_field() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.name("check")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.name("check")));
 		ele = driver.findElement(By.name("check"));
 		String text = ele.getAttribute("value");
 		int length = text.length();
@@ -3406,8 +3465,9 @@ public class CGI_Customers {
 		for (int i = 0; i < length; i++) {
 			ele.sendKeys(Keys.BACK_SPACE);
 		}
-		
+
 	}
+
 	@Then("Click update button in edit payments page")
 	public void click_update_button_in_edit_payments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -3416,6 +3476,7 @@ public class CGI_Customers {
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-primary'][@title='Click here to Update']"));
 		ele.click();
 	}
+
 	@Then("Click add due month button in check payments page")
 	public void click_add_due_month_button_in_check_payments_page() throws InterruptedException {
 		Thread.sleep(2000);
@@ -3424,10 +3485,12 @@ public class CGI_Customers {
 		ele = driver.findElement(By.xpath("//a[text()='Add due month']"));
 		ele.click();
 	}
+
 	@Then("Select june month in check payments page")
 	public void select_june_month_in_check_payments_page() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
+		wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-solid']"));
 		// Get the current date
 		LocalDate currentDate = LocalDate.now();
@@ -3437,7 +3500,7 @@ public class CGI_Customers {
 
 		// Format the next month in the desired format
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM, yyyy");
-        String formattedNextMonth = june2024.format(formatter);
+		String formattedNextMonth = june2024.format(formatter);
 
 		System.out.println("Next month: " + formattedNextMonth);
 		ele.sendKeys(formattedNextMonth);
@@ -3449,21 +3512,25 @@ public class CGI_Customers {
 		System.out.println("Current Year: " + currentYear);
 		ele.sendKeys(currentYear);
 	}
+
 	@Then("Check error toast message is displayed or not in check payments page")
 	public void check_error_toast_message_is_displayed_or_not_in_check_payments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='text-danger text-center mt-2']")));
 		ele = driver.findElement(By.xpath("//div[@class='text-danger text-center mt-2']"));
 		String text = ele.getText();
-		System.out.println("Error toast displayed like: "+text);
+		System.out.println("Error toast displayed like: " + text);
 	}
+
 	@Then("Click the uploaded file in attach check tab")
 	public void click_the_uploaded_file_in_attach_check_tab() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='cursor-pointer mb-1 text-primary']")));
+		wait.until(
+				ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='cursor-pointer mb-1 text-primary']")));
 		ele = driver.findElement(By.xpath("//div[@class='cursor-pointer mb-1 text-primary']"));
 		ele.click();
 	}
+
 	@Then("Modify valid detail in check payments page")
 	public void modify_valid_detail_in_check_payments_page() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

@@ -36,7 +36,7 @@ public class CGI_Reports {
 	public void to_check_Reports_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+		//option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -109,7 +109,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in OS Reports page")
-	public void select_valid_installer_name_in_os_reports_page(String InstallerName) {
+	public void select_valid_installer_name_in_os_reports_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(5000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[3]/select")));
@@ -142,7 +143,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Enter valid customer name {string} in OS Reports page")
-	public void enter_valid_customer_name_in_os_reports_page(String CustomerName) {
+	public void enter_valid_customer_name_in_os_reports_page(String CustomerName) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid  ps-14']")));
@@ -151,7 +153,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Click view button of the customer in OS Reports page")
-	public void click_view_button_of_the_customer_in_os_reports_page() {
+	public void click_view_button_of_the_customer_in_os_reports_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//span[@class='svg-icon svg-icon-2 svg-icon-danger']")));
@@ -500,9 +503,9 @@ public class CGI_Reports {
 	public void check_success_message_is_displayed_or_not_in_manual_payment_popup() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-				"//div[@class='Toastify__toast Toastify__toast-theme--light Toastify__toast--error Toastify__toast--close-on-click']")));
+				"//div[@class='Toastify__toast-body']")));
 		ele = driver.findElement(By.xpath(
-				"//div[@class='Toastify__toast Toastify__toast-theme--light Toastify__toast--error Toastify__toast--close-on-click']"));
+				"//div[@class='Toastify__toast-body']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -586,7 +589,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Tape Reports page")
-	public void select_valid_installer_name_in_tape_reports_page(String InstallerName) {
+	public void select_valid_installer_name_in_tape_reports_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/div[3]/div[2]/select")));
@@ -642,7 +646,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in ACH Transaction page")
-	public void select_valid_installer_name_in_ach_transaction_page(String InstallerName) {
+	public void select_valid_installer_name_in_ach_transaction_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div[2]/select")));
@@ -678,7 +683,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Click the actions button in ACH Transaction page")
-	public void click_the_actions_button_in_ach_transaction_page() {
+	public void click_the_actions_button_in_ach_transaction_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Actions']")));
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
@@ -710,7 +716,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in ACH Scheduler Log page")
-	public void select_valid_installer_name_in_ach_scheduler_log_page(String InstallerName) {
+	public void select_valid_installer_name_in_ach_scheduler_log_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//select[@class='form-select form-select-solid fs-7 w-125px  ']")));
@@ -742,7 +749,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Enter valid customer name {string} in ACH Transaction page")
-	public void enter_valid_customer_name_in_ach_transaction_page(String CustomerName) {
+	public void enter_valid_customer_name_in_ach_transaction_page(String CustomerName) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid w-300px ps-14']")));
@@ -759,7 +767,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Click back button in Transaction details page")
-	public void click_back_button_in_transaction_details_page() {
+	public void click_back_button_in_transaction_details_page() throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("achback")));
 		ele = driver.findElement(By.id("achback"));
@@ -775,7 +784,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Returned Transaction page")
-	public void select_valid_installer_name_in_returned_transaction_page(String InstallerName) {
+	public void select_valid_installer_name_in_returned_transaction_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[2]/select")));
@@ -811,7 +821,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Click actions button in Returned Transaction page")
-	public void click_actions_button_in_returned_transaction_page() {
+	public void click_actions_button_in_returned_transaction_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Actions']")));
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
@@ -837,6 +848,7 @@ public class CGI_Reports {
 	@Then("Enter valid customer name {string} in Returned Transaction page")
 	public void enter_valid_customer_name_in_returned_transaction_page(String CustomerName)
 			throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid w-250px ps-14']")));
@@ -861,7 +873,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Invoice Log page")
-	public void select_valid_installer_name_in_invoice_log_page(String InstallerName) {
+	public void select_valid_installer_name_in_invoice_log_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div/div/div[1]/select")));
@@ -897,7 +910,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Enter valid customer name {string} in Invoice Log page")
-	public void enter_valid_customer_name_in_invoice_log_page(String CustomerName) {
+	public void enter_valid_customer_name_in_invoice_log_page(String CustomerName) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid w-200px ps-14']")));
@@ -1034,7 +1048,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Activity Report page")
-	public void select_valid_installer_name_in_activity_report_page(String InstallerName) {
+	public void select_valid_installer_name_in_activity_report_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div/div/div[1]/select")));
@@ -1083,7 +1098,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Audit Report page")
-	public void select_valid_installer_name_in_audit_report_page(String InstallerName) {
+	public void select_valid_installer_name_in_audit_report_page(String InstallerName) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div/select")));
@@ -1105,7 +1121,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Click the export button in Audit Report page")
-	public void click_the_export_button_in_audit_report_page() {
+	public void click_the_export_button_in_audit_report_page() throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Export']")));
 		ele = driver.findElement(By.xpath("//button[text()='Export']"));
@@ -1113,7 +1130,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Enter valid customer name {string} in Audit Report page")
-	public void enter_valid_customer_name_in_audit_report_page(String CustomerName) {
+	public void enter_valid_customer_name_in_audit_report_page(String CustomerName) throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid  ps-14']")));

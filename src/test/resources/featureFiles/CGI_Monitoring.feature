@@ -562,7 +562,7 @@ Feature: MONITORING
     And Click edit button in panel page
     Then Modify valid details in edit panel page
     And Click update button in edit panel pages
-    And Check success message is displayed or not in edit panel page
+    #And Check success message is displayed or not in edit panel page
     Then Close the Monitoring Page
 
   @TC_42

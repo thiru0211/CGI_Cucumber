@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "C:\\Users\\thirumaran\\eclipse-workspace\\CGI_Cucumber_Project\\src\\test\\resources\\featureFiles\\CGI_Setup.feature", glue = "com.CGI.Stepdefinition",
 monochrome = true,
 //	dryRun = true, 
-//	tags = "@TC_99", 
+	tags = "@TC_86", 
 	plugin = { "pretty", "html:Reports/TestReport.html",
 				"json:target/cucumber/cucumber.json", "html:Reports/cucumber-reports.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

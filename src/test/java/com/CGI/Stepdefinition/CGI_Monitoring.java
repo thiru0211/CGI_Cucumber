@@ -39,7 +39,7 @@ public class CGI_Monitoring {
 	public void to_check_Monitoring_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		option.addArguments("--headless=old");
+//		option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -97,7 +97,8 @@ public class CGI_Monitoring {
 		ele.click();
 	}
 	@Then("Select valid installer name {string} in overall status page")
-	public void select_valid_installer_name_in_overall_status_page(String installer) {
+	public void select_valid_installer_name_in_overall_status_page(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("status")));
 		ele = driver.findElement(By.name("status"));
@@ -125,7 +126,8 @@ public class CGI_Monitoring {
 		ele.click();
 	}
 	@Then("Select valid installer name {string} in Production Status page")
-	public void select_valid_installer_name_in_production_status_page(String installer) {
+	public void select_valid_installer_name_in_production_status_page(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div/div[2]/select")));
 		ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div/div[2]/select"));
@@ -162,7 +164,8 @@ public class CGI_Monitoring {
 		ele.sendKeys(previousMonthString);
 	}
 	@Then("Click export button in Production Status page")
-	public void click_export_button_in_production_status_page() {
+	public void click_export_button_in_production_status_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Export']")));
 		ele = driver.findElement(By.xpath("//button[text()='Export']"));
@@ -184,7 +187,8 @@ public class CGI_Monitoring {
 		ele.sendKeys(percentage);
 	}
 	@Then("Click apply button in Production Status page")
-	public void click_apply_button_in_production_status_page() {
+	public void click_apply_button_in_production_status_page() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Apply']")));
 		ele = driver.findElement(By.xpath("//button[text()='Apply']"));
@@ -213,7 +217,8 @@ public class CGI_Monitoring {
 		ele.click();
 	}
 	@Then("Select valid installer name {string} in filter page")
-	public void select_valid_installer_name_in_filter_page(String installer) {
+	public void select_valid_installer_name_in_filter_page(String installer) throws InterruptedException {
+		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//select[@class='form-select form-select-solid form-select-lg']")));
 		ele = driver.findElement(By.xpath("//select[@class='form-select form-select-solid form-select-lg']"));
@@ -256,28 +261,32 @@ public class CGI_Monitoring {
 		ele.click();
 	}
 	@Then("Click second option in the action button in customer status")
-	public void click_second_option_in_the_action_button_in_customer_status() {
+	public void click_second_option_in_the_action_button_in_customer_status() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='2021']")));
 		ele = driver.findElement(By.xpath("//div[text()='2021']"));
 		ele.click();
 	}
 	@Then("Click third option in the action button in customer status")
-	public void click_third_option_in_the_action_button_in_customer_status() {
+	public void click_third_option_in_the_action_button_in_customer_status() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='2022']")));
 		ele = driver.findElement(By.xpath("//div[text()='2022']"));
 		ele.click();
 	}
 	@Then("Click fourth option in the action button in customer status")
-	public void click_fourth_option_in_the_action_button_in_customer_status() {
+	public void click_fourth_option_in_the_action_button_in_customer_status() throws InterruptedException {
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='2023']")));
 		ele = driver.findElement(By.xpath("//div[text()='2023']"));
 		ele.click();
 	}
 	@Then("Click fifth option in the action button in customer status")
-	public void click_fifth_option_in_the_action_button_in_customer_status() {
+	public void click_fifth_option_in_the_action_button_in_customer_status() throws InterruptedException {
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='2024']")));
 		ele = driver.findElement(By.xpath("//div[text()='2024']"));
@@ -326,7 +335,8 @@ public class CGI_Monitoring {
 		ele.click();
 	}
 	@Then("Click delete button in add notes in customer status")
-	public void click_delete_button_in_add_notes_in_customer_status() {
+	public void click_delete_button_in_add_notes_in_customer_status() throws InterruptedException {
+		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//i[@class='fa fa-trash']")));
 		ele = driver.findElement(By.xpath("//i[@class='fa fa-trash']"));

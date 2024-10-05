@@ -419,7 +419,7 @@ Feature: SETUP
     And Click udpate button in email notification tab
     Then Check success message is displayed or not in Installer Page
     Then Close the Setup Page
-
+@Test
   @TC_29
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -431,7 +431,7 @@ Feature: SETUP
     And Select valid status "ENABLED" in Investor Page
     Then Select valid status "DISABLED" in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_30
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -441,7 +441,7 @@ Feature: SETUP
     And Click Investor button
     Then Enter valid Investor name "Test" in searchbox in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_31
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -453,7 +453,7 @@ Feature: SETUP
     And Click save button in add Investor Page
     Then Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_32
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -467,7 +467,7 @@ Feature: SETUP
     And Select valid state name "Alabama" in add investor page
     And Click clear button in add Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_33
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -482,7 +482,7 @@ Feature: SETUP
     And Click save button in add Investor Page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_34
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -493,7 +493,7 @@ Feature: SETUP
     Then Click add button in Investor Page
     And Click back button in add Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_35
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -506,7 +506,7 @@ Feature: SETUP
     Then Click actions button in edit investor page
     And Click back button in edit Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_36
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -520,7 +520,7 @@ Feature: SETUP
     And Click edit investor button in edit investor page
     And Click clear button in edit Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_37
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -534,7 +534,7 @@ Feature: SETUP
     And Click edit investor button in edit investor page
     And Click back button in add Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_38
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -550,7 +550,7 @@ Feature: SETUP
     Then Click update button in edit Investor Page
     And Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_39
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -566,7 +566,7 @@ Feature: SETUP
     Then Click update button in edit Investor Page
     And Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_40
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -581,7 +581,7 @@ Feature: SETUP
     Then Click actions button in edit investor page
     And Click update button in action edit investor page
     Then Close the Setup Page
-
+@Test
   @TC_41
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -594,7 +594,7 @@ Feature: SETUP
     And Click edit button in customer tab
     Then Enter valid name "Test" in the search box of customer tab
     Then Close the Setup Page
-
+@Test
   @TC_42
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -607,7 +607,7 @@ Feature: SETUP
     And Click edit button in customer tab
     Then Click select all check box in customer tab
     Then Close the Setup Page
-
+@Test
   @TC_43
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -621,7 +621,7 @@ Feature: SETUP
     Then Click select all check box in customer tab
     Then Click unselect the check box in customer tab
     Then Close the Setup Page
-
+@Test
   @TC_44
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -636,7 +636,7 @@ Feature: SETUP
     Then Click actions button in edit investor page
     And Click update button in action edit investor page
     Then Close the Setup Page
-
+@Test
   @TC_45
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -649,10 +649,10 @@ Feature: SETUP
     And Click transaction button in Investor Page
     Then Click actions button in edit investor page
     And Click add transaction button in edit investor page
-    Then Click save button in add transaction page
+    Then Click save button in add transaction pages
     And Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_46
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -670,7 +670,7 @@ Feature: SETUP
     Then Upload valid file in the attachement field tab
     Then Click clear button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_47
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -688,7 +688,7 @@ Feature: SETUP
     Then Upload valid file in the attachement field tab
     Then Click save button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_48
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -703,7 +703,7 @@ Feature: SETUP
     And Click add transaction button in edit investor page
     Then Click back button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_49
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -717,7 +717,7 @@ Feature: SETUP
     And Click edit transaction button in edit investor page
     Then Click back button in edit transaction page
     Then Close the Setup Page
-
+@Test
   @TC_50
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -731,7 +731,7 @@ Feature: SETUP
     And Click edit transaction button in edit investor page
     Then Click clear button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_51
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -747,7 +747,7 @@ Feature: SETUP
     And Click update button in edit transaction page
     Then Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_52
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -763,7 +763,7 @@ Feature: SETUP
     And Click update button in edit transaction page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_53
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -779,7 +779,7 @@ Feature: SETUP
     Then Click save button in add transactions page
     Then Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_54
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -796,7 +796,7 @@ Feature: SETUP
     And Upload valid file in add documents
     Then Click save button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_55
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -811,7 +811,7 @@ Feature: SETUP
     And Click add documents button in edit investor page
     Then Click back button in add transaction page
     Then Close the Setup Page
-
+@Test
   @TC_56
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -825,7 +825,7 @@ Feature: SETUP
     And Click edit documents button in edit investor page
     Then Click back button in edit transaction page
     Then Close the Setup Page
-
+@Test
   @TC_57
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -841,7 +841,7 @@ Feature: SETUP
     And Click update button in edit transaction page
     Then Check mandatory message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_58
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -857,7 +857,7 @@ Feature: SETUP
     And Click update button in edit transaction page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_59
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -873,7 +873,7 @@ Feature: SETUP
     Then Click save button in add news feeds page
     Then Check mandatory message is displayed or not in add news feeds Page
     Then Close the Setup Page
-
+@Test
   @TC_60
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -891,7 +891,7 @@ Feature: SETUP
     Then Click save button in add news feeds page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_61
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -907,7 +907,7 @@ Feature: SETUP
     Then Click upload button in add news feeds page
     Then Check mandatory message is displayed or not in add news feeds Page
     Then Close the Setup Page
-
+@Test
   @TC_62
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -923,7 +923,7 @@ Feature: SETUP
     Then Click upload button in add news feeds page
     Then Check success message is displayed or not in Investor Page
     Then Close the Setup Page
-
+@Test
   @TC_63
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -936,7 +936,7 @@ Feature: SETUP
     And Click Investor Representative button in Investor Page
     Then Click check all button in Investor Representative page
     Then Close the Setup Page
-
+@Test
   @TC_64
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
@@ -949,7 +949,7 @@ Feature: SETUP
     And Click Investor Representative button in Investor Page
     Then Click clear all button in Investor Representative page
     Then Close the Setup Page
-
+@Test
   @TC_65
   Scenario: Setup:Investor
     Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
