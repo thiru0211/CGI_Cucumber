@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\CGI_Cucumber_Project\\src\\test\\resources\\featureFiles\\CGI_Schedulers.feature",
+@CucumberOptions(features ="C:\\Users\\Administrator.SANKARASOFTWARE\\git\\CGI_Cucumber\\src\\test\\resources\\featureFiles\\CGI_Schedulers.feature",
 glue = "com.CGI.Stepdefinition",
 monochrome = true,
 //dryRun = true,

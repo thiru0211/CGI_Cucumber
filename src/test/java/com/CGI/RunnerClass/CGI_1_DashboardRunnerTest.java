@@ -6,11 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features ="C:\\Users\\thirumaran\\eclipse-workspace\\CGI_Cucumber_Project\\src\\test\\resources\\featureFiles\\CGI_Dashboard.feature",
+@CucumberOptions(features ="C:\\Users\\Administrator.SANKARASOFTWARE\\git\\CGI_Cucumber\\src\\test\\resources\\featureFiles\\CGI_Dashboard.feature",
 glue = "com.CGI.Stepdefinition",
 monochrome = true,
 //dryRun = true,
-tags="@TC_01",
+//tags="@TC_01",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",

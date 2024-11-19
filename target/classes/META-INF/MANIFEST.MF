@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Build-Jdk-Spec: 21
+Build-Jdk-Spec: 23
 Class-Path: outjar/cucumber-java-7.18.0.jar outjar/apiguardian-api-1.1.2
  .jar outjar/cucumber-core-7.18.0.jar outjar/cucumber-gherkin-7.18.0.jar
   outjar/cucumber-gherkin-messages-7.18.0.jar outjar/gherkin-28.0.0.jar 
