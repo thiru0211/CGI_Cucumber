@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 glue = "com.CGI.Stepdefinition",
 monochrome = true,
 //dryRun = true,
-tags="@TC_26",
+//tags="@TC_24",
 plugin = {"pretty","html:Reports/TestReport.html",
 		"json:target/cucumber/cucumber.json",
 		"html:Reports/cucumber-reports.html",
@@ -19,5 +19,4 @@ plugin = {"pretty","html:Reports/TestReport.html",
 		})
 public class CGI_4_SchedulersRunnerTest {
 
-	
 }

@@ -2,8 +2,8 @@ Feature: SCHEDULERS
 
   @TC_01
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -13,8 +13,8 @@ Feature: SCHEDULERS
 
   @TC_02
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -25,8 +25,8 @@ Feature: SCHEDULERS
 
   @TC_03
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -38,8 +38,8 @@ Feature: SCHEDULERS
 
   @TC_04
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -58,8 +58,8 @@ Feature: SCHEDULERS
 
   @TC_05
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -78,8 +78,8 @@ Feature: SCHEDULERS
 
   @TC_06
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -99,8 +99,8 @@ Feature: SCHEDULERS
 
   @TC_07
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -118,8 +118,8 @@ Feature: SCHEDULERS
 
   @TC_08
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -139,8 +139,8 @@ Feature: SCHEDULERS
 
   @TC_09
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -161,8 +161,8 @@ Feature: SCHEDULERS
 
   @TC_10
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -179,8 +179,8 @@ Feature: SCHEDULERS
 
   @TC_11
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -196,8 +196,8 @@ Feature: SCHEDULERS
 
   @TC_12
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -214,8 +214,8 @@ Feature: SCHEDULERS
 
   @TC_13
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -227,8 +227,8 @@ Feature: SCHEDULERS
 
   @TC_14
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -240,8 +240,8 @@ Feature: SCHEDULERS
 
   @TC_15
   Scenario: Schedulers:ACH Scheduler
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click ACH Scheduler button
@@ -253,8 +253,8 @@ Feature: SCHEDULERS
 
    @TC_16
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -266,8 +266,8 @@ Feature: SCHEDULERS
 
    @TC_17
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -279,8 +279,8 @@ Feature: SCHEDULERS
 
    @TC_18
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -289,8 +289,8 @@ Feature: SCHEDULERS
 
    @TC_19
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -301,8 +301,8 @@ Feature: SCHEDULERS
 
    @TC_20
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -315,8 +315,8 @@ Feature: SCHEDULERS
 
    @TC_21
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -330,8 +330,8 @@ Feature: SCHEDULERS
 
    @TC_22
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -341,8 +341,8 @@ Feature: SCHEDULERS
 
    @TC_23
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -351,8 +351,8 @@ Feature: SCHEDULERS
 
    @TC_24
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -362,8 +362,8 @@ Feature: SCHEDULERS
 
    @TC_25
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button
@@ -373,8 +373,8 @@ Feature: SCHEDULERS
 
    @TC_26
   Scenario: Schedulers:No payment
-    Given To Check Schedulers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Schedulers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Schedulers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Schedulers
     Then Click the Schedulers button
     And Click No payment button

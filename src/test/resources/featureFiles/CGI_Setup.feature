@@ -2,8 +2,8 @@ Feature: SETUP
 
   @TC_01
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -14,8 +14,8 @@ Feature: SETUP
 
   @TC_02
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -24,8 +24,8 @@ Feature: SETUP
 
   @TC_03
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -36,8 +36,8 @@ Feature: SETUP
 
   @TC_04
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -56,8 +56,8 @@ Feature: SETUP
 
   @TC_05
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -77,8 +77,8 @@ Feature: SETUP
 
   @TC_06
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -88,8 +88,8 @@ Feature: SETUP
 
   @TC_07
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -101,8 +101,8 @@ Feature: SETUP
 
   @TC_08
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -115,8 +115,8 @@ Feature: SETUP
 
   @TC_09
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -131,8 +131,8 @@ Feature: SETUP
 
   @TC_10
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -147,8 +147,8 @@ Feature: SETUP
 
   @TC_11
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -161,8 +161,8 @@ Feature: SETUP
 
   @TC_12
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -174,8 +174,8 @@ Feature: SETUP
 
   @TC_13
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -189,8 +189,8 @@ Feature: SETUP
 
   @TC_14
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -203,8 +203,8 @@ Feature: SETUP
 
   @TC_15
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -218,8 +218,8 @@ Feature: SETUP
 
   @TC_16
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -235,8 +235,8 @@ Feature: SETUP
 
   @TC_17
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -248,8 +248,8 @@ Feature: SETUP
 
   @TC_18
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -263,8 +263,8 @@ Feature: SETUP
 
   @TC_19
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -278,8 +278,8 @@ Feature: SETUP
 
   @TC_20
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -292,8 +292,8 @@ Feature: SETUP
 
   @TC_21
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -306,8 +306,8 @@ Feature: SETUP
 
   @TC_22
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -322,8 +322,8 @@ Feature: SETUP
 
   @TC_23
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -339,8 +339,8 @@ Feature: SETUP
 
   @TC_24
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -357,8 +357,8 @@ Feature: SETUP
 
   @TC_25
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -370,8 +370,8 @@ Feature: SETUP
 
   @TC_26
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -384,8 +384,8 @@ Feature: SETUP
 
   @TC_27
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -400,8 +400,8 @@ Feature: SETUP
 
   @TC_28
   Scenario: Setup:Installer
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Installer button
@@ -422,8 +422,8 @@ Feature: SETUP
 @Test
   @TC_29
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -434,8 +434,8 @@ Feature: SETUP
 @Test
   @TC_30
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -444,8 +444,8 @@ Feature: SETUP
 @Test
   @TC_31
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -456,8 +456,8 @@ Feature: SETUP
 @Test
   @TC_32
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -470,8 +470,8 @@ Feature: SETUP
 @Test
   @TC_33
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -485,8 +485,8 @@ Feature: SETUP
 @Test
   @TC_34
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -496,8 +496,8 @@ Feature: SETUP
 @Test
   @TC_35
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -509,8 +509,8 @@ Feature: SETUP
 @Test
   @TC_36
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -523,8 +523,8 @@ Feature: SETUP
 @Test
   @TC_37
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -537,8 +537,8 @@ Feature: SETUP
 @Test
   @TC_38
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -553,8 +553,8 @@ Feature: SETUP
 @Test
   @TC_39
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -569,8 +569,8 @@ Feature: SETUP
 @Test
   @TC_40
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -584,8 +584,8 @@ Feature: SETUP
 @Test
   @TC_41
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -597,8 +597,8 @@ Feature: SETUP
 @Test
   @TC_42
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -610,8 +610,8 @@ Feature: SETUP
 @Test
   @TC_43
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -624,8 +624,8 @@ Feature: SETUP
 @Test
   @TC_44
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -639,8 +639,8 @@ Feature: SETUP
 @Test
   @TC_45
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -655,8 +655,8 @@ Feature: SETUP
 @Test
   @TC_46
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -673,8 +673,8 @@ Feature: SETUP
 @Test
   @TC_47
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -691,8 +691,8 @@ Feature: SETUP
 @Test
   @TC_48
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -706,8 +706,8 @@ Feature: SETUP
 @Test
   @TC_49
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -720,8 +720,8 @@ Feature: SETUP
 @Test
   @TC_50
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -734,8 +734,8 @@ Feature: SETUP
 @Test
   @TC_51
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -750,8 +750,8 @@ Feature: SETUP
 @Test
   @TC_52
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -766,8 +766,8 @@ Feature: SETUP
 @Test
   @TC_53
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -782,8 +782,8 @@ Feature: SETUP
 @Test
   @TC_54
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -799,8 +799,8 @@ Feature: SETUP
 @Test
   @TC_55
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -814,8 +814,8 @@ Feature: SETUP
 @Test
   @TC_56
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -828,8 +828,8 @@ Feature: SETUP
 @Test
   @TC_57
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -844,8 +844,8 @@ Feature: SETUP
 @Test
   @TC_58
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -860,8 +860,8 @@ Feature: SETUP
 @Test
   @TC_59
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -876,8 +876,8 @@ Feature: SETUP
 @Test
   @TC_60
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -894,8 +894,8 @@ Feature: SETUP
 @Test
   @TC_61
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -910,8 +910,8 @@ Feature: SETUP
 @Test
   @TC_62
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -926,8 +926,8 @@ Feature: SETUP
 @Test
   @TC_63
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -939,8 +939,8 @@ Feature: SETUP
 @Test
   @TC_64
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -952,8 +952,8 @@ Feature: SETUP
 @Test
   @TC_65
   Scenario: Setup:Investor
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Investor button
@@ -967,8 +967,8 @@ Feature: SETUP
 
   @TC_66
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -979,8 +979,8 @@ Feature: SETUP
 
   @TC_67
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -989,8 +989,8 @@ Feature: SETUP
 
   @TC_68
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1000,8 +1000,8 @@ Feature: SETUP
 
   @TC_69
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1012,8 +1012,8 @@ Feature: SETUP
 
   @TC_70
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1026,8 +1026,8 @@ Feature: SETUP
 
   @TC_71
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1040,8 +1040,8 @@ Feature: SETUP
 
   @TC_72
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1053,8 +1053,8 @@ Feature: SETUP
 
   @TC_73
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1067,8 +1067,8 @@ Feature: SETUP
 
   @TC_74
   Scenario: Setup:Customer Group
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click Customer Group button
@@ -1081,8 +1081,8 @@ Feature: SETUP
 
   @TC_75
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1093,8 +1093,8 @@ Feature: SETUP
 
   @TC_76
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1103,8 +1103,8 @@ Feature: SETUP
 
   @TC_77
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1114,8 +1114,8 @@ Feature: SETUP
 
   @TC_78
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1126,8 +1126,8 @@ Feature: SETUP
 
   @TC_79
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1141,8 +1141,8 @@ Feature: SETUP
 
   @TC_80
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1156,8 +1156,8 @@ Feature: SETUP
 
   @TC_81
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1168,8 +1168,8 @@ Feature: SETUP
 
   @TC_82
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1181,8 +1181,8 @@ Feature: SETUP
 
   @TC_83
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1194,8 +1194,8 @@ Feature: SETUP
 
   @TC_84
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1208,8 +1208,8 @@ Feature: SETUP
 
   @TC_85
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1220,8 +1220,8 @@ Feature: SETUP
 
   @TC_86
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1234,8 +1234,8 @@ Feature: SETUP
 
   @TC_87
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1248,8 +1248,8 @@ Feature: SETUP
 
   @TC_88
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1260,8 +1260,8 @@ Feature: SETUP
 
   @TC_89
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1274,8 +1274,8 @@ Feature: SETUP
 
   @TC_90
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1288,8 +1288,8 @@ Feature: SETUP
 
   @TC_91
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1302,8 +1302,8 @@ Feature: SETUP
 
   @TC_92
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1315,8 +1315,8 @@ Feature: SETUP
 
   @TC_93
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1327,8 +1327,8 @@ Feature: SETUP
 
   @TC_94
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1341,8 +1341,8 @@ Feature: SETUP
 
   @TC_95
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1355,8 +1355,8 @@ Feature: SETUP
 
   @TC_96
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1370,8 +1370,8 @@ Feature: SETUP
 
   @TC_97
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1386,8 +1386,8 @@ Feature: SETUP
 
   @TC_98
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button
@@ -1403,8 +1403,8 @@ Feature: SETUP
 
      @TC_99
   Scenario: Setup:API Setup
-    Given To Check Setup User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Setup User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Setup User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Setup
     Then Click the Setup button
     And Click API Setup button

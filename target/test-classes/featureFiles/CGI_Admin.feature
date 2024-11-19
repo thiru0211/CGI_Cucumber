@@ -2,8 +2,8 @@ Feature: ADMIN
 
   @TC_01
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -13,8 +13,8 @@ Feature: ADMIN
 
   @TC_02
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -24,8 +24,8 @@ Feature: ADMIN
 
   @TC_03
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -36,8 +36,8 @@ Feature: ADMIN
 
   @TC_04
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -49,8 +49,8 @@ Feature: ADMIN
 
   @TC_05
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -62,8 +62,8 @@ Feature: ADMIN
 
   @TC_06
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -75,8 +75,8 @@ Feature: ADMIN
 
   @TC_07
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -88,8 +88,8 @@ Feature: ADMIN
 
   @TC_08
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -103,8 +103,8 @@ Feature: ADMIN
 
   @TC_09
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -120,8 +120,8 @@ Feature: ADMIN
 
   @TC_10
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -137,8 +137,8 @@ Feature: ADMIN
 
   @TC_11
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -151,8 +151,8 @@ Feature: ADMIN
 
   @TC_12
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -166,8 +166,8 @@ Feature: ADMIN
 
   @TC_13
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -179,8 +179,8 @@ Feature: ADMIN
 
   @TC_14
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -193,8 +193,8 @@ Feature: ADMIN
 
   @TC_15
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -208,8 +208,8 @@ Feature: ADMIN
 
   @TC_16
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -221,8 +221,8 @@ Feature: ADMIN
 
   @TC_17
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -235,23 +235,23 @@ Feature: ADMIN
 
   @TC_18
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
     Then Enter valid username "Test" in the search box
     Then Click edit button in view user
     And Click the edit button in Password field
-    Then Enter valid new Password "Thirumaran@55" in the update Password
-    And Enter valid confirm Password "Thirumaran@55" in the update Password
+    Then Enter valid new Password "Thirumaran@1234" in the update Password
+    And Enter valid confirm Password "Thirumaran@1234" in the update Password
     And Click reset button in the update Password
     Then close the Admin Page
 
   @TC_19
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -263,8 +263,8 @@ Feature: ADMIN
 
   @TC_20
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -278,8 +278,8 @@ Feature: ADMIN
 
   @TC_21
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -291,8 +291,8 @@ Feature: ADMIN
 
   @TC_22
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -306,8 +306,8 @@ Feature: ADMIN
 
   @TC_23
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -321,8 +321,8 @@ Feature: ADMIN
 
   @TC_24
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -336,8 +336,8 @@ Feature: ADMIN
 
   @TC_25
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -351,8 +351,8 @@ Feature: ADMIN
 
   @TC_26
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -366,8 +366,8 @@ Feature: ADMIN
 
   @TC_27
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -381,8 +381,8 @@ Feature: ADMIN
 
   @TC_28
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -396,8 +396,8 @@ Feature: ADMIN
 
   @TC_29
   Scenario: Admin:View User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click view user button
@@ -412,8 +412,8 @@ Feature: ADMIN
 
   @TC_30
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -424,8 +424,8 @@ Feature: ADMIN
 
   @TC_31
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -435,8 +435,8 @@ Feature: ADMIN
 
   @TC_32
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -447,8 +447,8 @@ Feature: ADMIN
 
   @TC_33
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -464,8 +464,8 @@ Feature: ADMIN
 
   @TC_34
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -482,8 +482,8 @@ Feature: ADMIN
 
   @TC_35
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -493,8 +493,8 @@ Feature: ADMIN
 
   @TC_35
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -505,8 +505,8 @@ Feature: ADMIN
 
   @TC_36
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -517,8 +517,8 @@ Feature: ADMIN
 
   @TC_37
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -531,8 +531,8 @@ Feature: ADMIN
 
   @TC_38
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -544,8 +544,8 @@ Feature: ADMIN
 
   @TC_39
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -557,8 +557,8 @@ Feature: ADMIN
 
   @TC_40
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -570,8 +570,8 @@ Feature: ADMIN
 
   @TC_41
   Scenario: Admin:Bank User
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Bank setup button
@@ -584,8 +584,8 @@ Feature: ADMIN
 
   @TC_42
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -596,8 +596,8 @@ Feature: ADMIN
 
   @TC_43
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -606,8 +606,8 @@ Feature: ADMIN
 
   @TC_44
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -618,8 +618,8 @@ Feature: ADMIN
 
   @TC_45
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -633,8 +633,8 @@ Feature: ADMIN
 
   @TC_45
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -649,8 +649,8 @@ Feature: ADMIN
 
   @TC_46
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -660,8 +660,8 @@ Feature: ADMIN
 
   @TC_47
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -672,8 +672,8 @@ Feature: ADMIN
 
   @TC_48
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -684,8 +684,8 @@ Feature: ADMIN
 
   @TC_49
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -698,8 +698,8 @@ Feature: ADMIN
 
   @TC_50
   Scenario: Admin:Authorized .Net
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Authorized .Net button
@@ -712,8 +712,8 @@ Feature: ADMIN
 
   @TC_51
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -724,8 +724,8 @@ Feature: ADMIN
 
   @TC_52
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -734,8 +734,8 @@ Feature: ADMIN
 
   @TC_53
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -746,8 +746,8 @@ Feature: ADMIN
 
   @TC_54
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -761,8 +761,8 @@ Feature: ADMIN
 
   @TC_55
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -777,8 +777,8 @@ Feature: ADMIN
 
   @TC_56
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -788,8 +788,8 @@ Feature: ADMIN
 
   @TC_57
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -800,8 +800,8 @@ Feature: ADMIN
 
   @TC_58
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -812,8 +812,8 @@ Feature: ADMIN
 
   @TC_59
   Scenario: Admin:IP Whitelist
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click IP Whitelist button
@@ -826,8 +826,8 @@ Feature: ADMIN
 
   @TC_60
   Scenario: Admin:User Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click User Log button
@@ -836,8 +836,8 @@ Feature: ADMIN
 
   @TC_61
   Scenario: Admin:User Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click User Log button
@@ -847,8 +847,8 @@ Feature: ADMIN
 
   @TC_62
   Scenario: Admin:User Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click User Log button
@@ -859,8 +859,8 @@ Feature: ADMIN
 
   @TC_63
   Scenario: Admin:Event Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Event Log button
@@ -869,8 +869,8 @@ Feature: ADMIN
 
   @TC_64
   Scenario: Admin:Event Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Event Log button
@@ -880,8 +880,8 @@ Feature: ADMIN
 
   @TC_65
   Scenario: Admin:Exception Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Exception Log button
@@ -890,8 +890,8 @@ Feature: ADMIN
 
   @TC_66
   Scenario: Admin:Exception Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Exception Log button
@@ -900,8 +900,8 @@ Feature: ADMIN
 
   @TC_67
   Scenario: Admin:Exception Log
-    Given To Check Admin User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Admin User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Admin User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Admin
     Then Click the admin button
     And Click Exception Log button

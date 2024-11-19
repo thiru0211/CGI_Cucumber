@@ -84,6 +84,7 @@ public class CGI_Tickets {
 		ele = driver.findElement(By.xpath("//span[text()='Tickets']"));
 		ele.click();
 	}
+
 	@Then("Select valid month in tickets page")
 	public void select_valid_month_in_tickets_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -97,96 +98,103 @@ public class CGI_Tickets {
 		System.out.println("Previous Month: " + previousMonthString);
 		ele.sendKeys(previousMonthString);
 	}
+
 	@Then("Select valid installer {string} in tickets page")
 	public void select_valid_installer_in_tickets_page(String InstallerName) throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[3]/div[2]/select")));
-		ele = driver
-				.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[3]/div[2]/select"));
+		ele = driver.findElement(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[3]/div[2]/select"));
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(InstallerName);
 	}
+
 	@Then("Select valid status {string} in tickets page")
 	public void select_valid_status_in_tickets_page(String status) throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[4]/div[2]/select")));
-		ele = driver
-				.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[4]/div[2]/select"));
+		ele = driver.findElement(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[4]/div[2]/select"));
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(status);
 	}
+
 	@Then("Select valid reason {string} in tickets page")
 	public void select_valid_reason_in_tickets_page(String reason) throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[5]/div[2]/select")));
-		ele = driver
-				.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[5]/div[2]/select"));
+		ele = driver.findElement(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div[1]/div[5]/div[2]/select"));
 		Select sel = new Select(ele);
 		sel.selectByVisibleText(reason);
 	}
+
 	@Then("Enter valid customer name {string} in tickets page")
 	public void enter_valid_customer_name_in_tickets_page(String CustomerName) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid  ps-14']")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-solid  ps-14']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-solid  ps-14']"));
 		ele.sendKeys(CustomerName);
 	}
+
 	@Then("Click view button in the grid in tickets page")
 	public void click_view_button_in_the_grid_in_tickets_page() throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//td[@class='text-center']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[@class='text-center']")));
 		ele = driver.findElement(By.xpath("//td[@class='text-center']"));
 		ele.click();
 	}
+
 	@Then("Click actions button in ticket page")
 	public void click_actions_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary btn btn-primary btn-sm show menu-dropdown  css-1ujsas3']")));
-		ele = driver.findElement(By.xpath("//button[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary btn btn-primary btn-sm show menu-dropdown  css-1ujsas3']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
+				"//button[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary btn btn-primary btn-sm show menu-dropdown  css-1ujsas3']")));
+		ele = driver.findElement(By.xpath(
+				"//button[@class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary btn btn-primary btn-sm show menu-dropdown  css-1ujsas3']"));
 		ele.click();
 	}
+
 	@Then("Click back button in ticket page")
 	public void click_back_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Back']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Back']")));
 		ele = driver.findElement(By.xpath("//div[text()='Back']"));
 		ele.click();
 	}
+
 	@Then("Click add comments button in ticket page")
 	public void click_add_comments_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Add Comments']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Add Comments']")));
 		ele = driver.findElement(By.xpath("//div[text()='Add Comments']"));
 		ele.click();
 	}
+
 	@Then("Click close button in add comments page")
 	public void click_close_button_in_add_comments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click save button in add comments page")
 	public void click_save_button_in_add_comments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Save']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Save']")));
 		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
+
 	@Then("Check mandatory message is displayed or not in add comments page")
 	public void check_mandatory_message_is_displayed_or_not_in_add_comments_page() throws InterruptedException {
 		Thread.sleep(3000);
@@ -203,21 +211,23 @@ public class CGI_Tickets {
 			System.out.println("No alert message is displayed");
 		}
 	}
+
 	@Then("Enter valid message {string} in add comments page")
 	public void enter_valid_message_in_add_comments_page(String message) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//textarea[@class='form-control form-control-solid']")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//textarea[@class='form-control form-control-solid']")));
 		ele = driver.findElement(By.xpath("//textarea[@class='form-control form-control-solid']"));
 		ele.sendKeys(message);
 	}
+
 	@Then("Check success message is displayed or not in add comments page")
 	public void check_success_message_is_displayed_or_not_in_add_comments_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-				"//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath(
-				"//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -225,30 +235,32 @@ public class CGI_Tickets {
 			System.out.println("No success message is displayed");
 		}
 	}
+
 	@Then("Click send mail button in ticket page")
 	public void click_send_mail_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Send Mail']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Send Mail']")));
 		ele = driver.findElement(By.xpath("//div[text()='Send Mail']"));
 		ele.click();
 	}
+
 	@Then("Click close button in send mail page")
 	public void click_close_button_in_send_mail_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click send button in send mail page")
 	public void click_send_button_in_send_mail_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div[2]/div[4]/button")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div[2]/div[4]/button")));
 		ele = driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/div/div[2]/div/div[2]/div[4]/button"));
 		ele.click();
 	}
+
 	@Then("Check mandatory message is displayed or not in send mail page")
 	public void check_mandatory_message_is_displayed_or_not_in_send_mail_page() throws InterruptedException {
 		Thread.sleep(2000);
@@ -265,40 +277,43 @@ public class CGI_Tickets {
 			System.out.println("No alert message is displayed");
 		}
 	}
+
 	@Then("Clear the mail id in send mail page")
 	public void clear_the_mail_id_in_send_mail_page() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-transparent border-0']")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-transparent border-0']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-transparent border-0']"));
 		String text = ele.getAttribute("value");
 		int length = text.length();
 		Thread.sleep(2000);
-		for(int i=0;i<length;i++) {
+		for (int i = 0; i < length; i++) {
 			ele.sendKeys(Keys.BACK_SPACE);
 		}
 	}
+
 	@Then("Enter valid mail id {string} in send mail page")
 	public void enter_valid_mail_id_in_send_mail_page(String MailId) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-transparent border-0']")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//input[@class='form-control form-control-transparent border-0']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-transparent border-0']"));
 		ele.sendKeys(MailId);
 	}
+
 	@Then("Enter valid subject {string} in send mail page")
 	public void enter_valid_subject_in_send_mail_page(String subject) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-transparent fw-bold fs-3']")));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//input[@class='form-control form-control-transparent fw-bold fs-3']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-transparent fw-bold fs-3']"));
 		ele.sendKeys(subject);
 	}
+
 	@Then("Enter valid message {string} in send mail page")
 	public void enter_valid_message_in_send_mail_page(String message) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//textarea[@class='ql-editor ql-blank mt-10']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//textarea[@class='ql-editor ql-blank mt-10']")));
 		ele = driver.findElement(By.xpath("//textarea[@class='ql-editor ql-blank mt-10']"));
 		ele.sendKeys(message);
 	}
@@ -306,27 +321,27 @@ public class CGI_Tickets {
 	@Then("Click Close Tickets button in ticket page")
 	public void click_close_tickets_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Close Ticket']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Close Ticket']")));
 		ele = driver.findElement(By.xpath("//div[text()='Close Ticket']"));
 		ele.click();
 	}
+
 	@Then("Click close button in Close Tickets page")
 	public void click_close_button_in_close_tickets_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click save button in Close Tickets page")
 	public void click_save_button_in_close_tickets_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Save']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Save']")));
 		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
+
 	@Then("Check mandatory message is displayed or not in Close Tickets page")
 	public void check_mandatory_message_is_displayed_or_not_in_close_tickets_page() throws InterruptedException {
 		Thread.sleep(2000);
@@ -343,29 +358,31 @@ public class CGI_Tickets {
 			System.out.println("No alert message is displayed");
 		}
 	}
+
 	@Then("Enter valid description {string} in Close Tickets page")
 	public void enter_valid_description_in_close_tickets_page(String description) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//textarea[@class='form-control form-control-solid']")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("//textarea[@class='form-control form-control-solid']")));
 		ele = driver.findElement(By.xpath("//textarea[@class='form-control form-control-solid']"));
 		ele.sendKeys(description);
 	}
+
 	@Then("Click clear button in Close Tickets page")
 	public void click_clear_button_in_close_tickets_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Clear']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='Clear']")));
 		ele = driver.findElement(By.xpath("//div[text()='Clear']"));
 		ele.click();
 	}
+
 	@Then("Check success message is displayed or not in Close Tickets page")
 	public void check_success_message_is_displayed_or_not_in_close_tickets_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-				"//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath(
-				"//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -373,19 +390,19 @@ public class CGI_Tickets {
 			System.out.println("No success message is displayed");
 		}
 	}
+
 	@Then("Click View Payment History button in ticket page")
 	public void click_view_payment_history_button_in_ticket_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='View Payment History']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[text()='View Payment History']")));
 		ele = driver.findElement(By.xpath("//div[text()='View Payment History']"));
 		ele.click();
 	}
+
 	@Then("Click close button in View Payment History page")
 	public void click_close_button_in_view_payment_history_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(
-				ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='ant-modal-close']")));
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}

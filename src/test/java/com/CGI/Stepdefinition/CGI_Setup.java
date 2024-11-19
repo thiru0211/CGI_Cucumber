@@ -328,8 +328,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in add Installer Page")
 	public void check_success_message_is_displayed_or_not_in_add_installer_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -437,8 +439,10 @@ public class CGI_Setup {
 	public void check_success_message_is_displayed_or_not_in_installer_page() throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -770,8 +774,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in email notification tab")
 	public void check_success_message_is_displayed_or_not_in_email_notification_tab() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -784,8 +790,7 @@ public class CGI_Setup {
 	public void click_investor_button() throws InterruptedException {
 		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//span[text()='Investor']")));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='Investor']")));
 		ele = driver.findElement(By.xpath("//span[text()='Investor']"));
 		ele.click();
 	}
@@ -844,8 +849,6 @@ public class CGI_Setup {
 			System.out.println("No alert message is displayed");
 		}
 	}
-	
-	
 
 	@Then("Enter valid investor name {string} in investor name field")
 	public void enter_valid_investor_name_in_investor_name_field(String Name) {
@@ -885,8 +888,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Investor Page")
 	public void check_success_message_is_displayed_or_not_in_investor_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -1118,7 +1123,7 @@ public class CGI_Setup {
 		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
-	
+
 	@Then("Click save button in add transaction pages")
 	public void click_save_button_in_add_transaction_pages() throws InterruptedException {
 		Thread.sleep(2000);
@@ -1623,8 +1628,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Add Customer Group Page")
 	public void check_success_message_is_displayed_or_not_in_add_customer_group_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -1706,8 +1713,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in edit Customer Group Page")
 	public void check_success_message_is_displayed_or_not_in_edit_customer_group_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -1858,8 +1867,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Add CRM Setup Details popup")
 	public void check_success_message_is_displayed_or_not_in_add_crm_setup_details_popup() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -2070,8 +2081,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Application Login tab")
 	public void check_success_message_is_displayed_or_not_in_application_login_tab() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -2112,8 +2125,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Data Refresh")
 	public void check_success_message_is_displayed_or_not_in_data_refresh() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -2203,8 +2218,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in Sync Customer")
 	public void check_success_message_is_displayed_or_not_in_sync_customer() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -2216,8 +2233,10 @@ public class CGI_Setup {
 	@Then("Check success message is displayed or not in API key tab")
 	public void check_success_message_is_displayed_or_not_in_API_key_tab() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
-		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']")));
+		ele = driver.findElement(
+				By.xpath("//div[@class='Toastify__toast-container Toastify__toast-container--top-right']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -2293,6 +2312,7 @@ public class CGI_Setup {
 		ele = driver.findElement(By.xpath("//button[text()='No']"));
 		ele.click();
 	}
+
 	@Then("Click action button in API Setup Page")
 	public void click_action_button_in_api_setup_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -2300,6 +2320,7 @@ public class CGI_Setup {
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
 		ele.click();
 	}
+
 	@Then("Click back button in API Setup Page")
 	public void click_back_button_in_api_setup_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

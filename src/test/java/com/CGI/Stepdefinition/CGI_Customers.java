@@ -76,7 +76,6 @@ public class CGI_Customers {
 	public void close_the_Signin_Page() {
 		driver.quit();
 		System.out.print("\u001B[1mPage is closed\u001B[0m");
-
 	}
 
 	@Then("Click the Customers button")

@@ -2,8 +2,8 @@ Feature: TICKETS
 
   @TC_01
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -14,8 +14,8 @@ Feature: TICKETS
 
   @TC_02
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -26,8 +26,8 @@ Feature: TICKETS
 
   @TC_03
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -38,8 +38,8 @@ Feature: TICKETS
 
   @TC_04
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -50,8 +50,8 @@ Feature: TICKETS
 
   @TC_05
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -62,8 +62,8 @@ Feature: TICKETS
 
   @TC_06
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -74,8 +74,8 @@ Feature: TICKETS
 
   @TC_07
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -86,8 +86,8 @@ Feature: TICKETS
 
   @TC_08
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -98,8 +98,8 @@ Feature: TICKETS
 
   @TC_09
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -110,8 +110,8 @@ Feature: TICKETS
 
   @TC_10
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -123,8 +123,8 @@ Feature: TICKETS
 
   @TC_11
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -139,8 +139,8 @@ Feature: TICKETS
 
   @TC_12
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -156,8 +156,8 @@ Feature: TICKETS
 
   @TC_13
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -174,8 +174,8 @@ Feature: TICKETS
 
   @TC_14
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -193,8 +193,8 @@ Feature: TICKETS
 
   @TC_15
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -210,8 +210,8 @@ Feature: TICKETS
 
   @TC_16
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -228,8 +228,8 @@ Feature: TICKETS
 
   @TC_17
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -250,8 +250,8 @@ Feature: TICKETS
 
   @TC_18
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -267,8 +267,8 @@ Feature: TICKETS
 
   @TC_19
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -285,8 +285,8 @@ Feature: TICKETS
 
   @TC_20
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -303,8 +303,8 @@ Feature: TICKETS
 
   @TC_21
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page
@@ -321,8 +321,8 @@ Feature: TICKETS
 
   @TC_22
   Scenario: Tickets
-    Given To Check Tickets User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Tickets User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Tickets User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Tickets
     Then Click Tickets button
     And Select valid month in tickets page

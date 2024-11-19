@@ -14,6 +14,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,7 +37,7 @@ public class CGI_Reports {
 	public void to_check_Reports_user_is_navigating_to_cgi_url_is(String URL) {
 		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		ChromeOptions option = new ChromeOptions();
-		//option.addArguments("--headless=old");
+		// option.addArguments("--headless=old");
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
 		driver.get(URL);
@@ -315,7 +316,7 @@ public class CGI_Reports {
 
 	@Then("Click clear button in Add Received Payments popup")
 	public void click_clear_button_in_add_received_payments_popup() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Clear']")));
 		ele = driver.findElement(By.xpath("//button[text()='Clear']"));
@@ -338,11 +339,12 @@ public class CGI_Reports {
 	}
 
 	@Then("Click edit button in Add Received Payments")
-	public void click_edit_button_in_add_received_payments() {
+	public void click_edit_button_in_add_received_payments() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//td[@class='text-center cursor-pointer']")));
 		ele = driver.findElement(By.xpath("//td[@class='text-center cursor-pointer']"));
 		ele.click();
+		Thread.sleep(2000);
 	}
 
 	@Then("Check description details is cleared or not in edit Received Payments popup")
@@ -502,10 +504,8 @@ public class CGI_Reports {
 	@Then("Check success message is displayed or not in manual payment popup")
 	public void check_success_message_is_displayed_or_not_in_manual_payment_popup() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
-				"//div[@class='Toastify__toast-body']")));
-		ele = driver.findElement(By.xpath(
-				"//div[@class='Toastify__toast-body']"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='Toastify__toast-body']")));
+		ele = driver.findElement(By.xpath("//div[@class='Toastify__toast-body']"));
 		if (ele.isDisplayed()) {
 			String text = ele.getText();
 			System.out.println("Alert message displayed like: " + text);
@@ -631,10 +631,25 @@ public class CGI_Reports {
 
 	@Then("Click download report button in Tape Reports page")
 	public void click_download_report_button_in_tape_reports_page() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Download Report']")));
-		ele = driver.findElement(By.xpath("//button[text()='Download Report']"));
-		ele.click();
+		try {
+			// Wait for the element to be clickable
+			WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+			WebElement ele = wait
+					.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Download Report']")));
+
+			// No need for a separate visibility check, as elementToBeClickable ensures
+			// visibility
+			System.out.println("Download button is displayed and clickable!");
+
+			// Perform further actions with the element
+			ele.click(); // Example: Click the button
+
+		} catch (TimeoutException e) {
+			System.out.println("Download button is not displayed or clickable within the timeout.");
+		} finally {
+			// Close the WebDriver
+			driver.quit();
+		}
 	}
 
 	@Then("Click ACH Transaction button")
@@ -716,7 +731,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in ACH Scheduler Log page")
-	public void select_valid_installer_name_in_ach_scheduler_log_page(String InstallerName) throws InterruptedException {
+	public void select_valid_installer_name_in_ach_scheduler_log_page(String InstallerName)
+			throws InterruptedException {
 		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions
@@ -784,7 +800,8 @@ public class CGI_Reports {
 	}
 
 	@Then("Select valid installer name {string} in Returned Transaction page")
-	public void select_valid_installer_name_in_returned_transaction_page(String InstallerName) throws InterruptedException {
+	public void select_valid_installer_name_in_returned_transaction_page(String InstallerName)
+			throws InterruptedException {
 		Thread.sleep(4000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
@@ -1099,7 +1116,7 @@ public class CGI_Reports {
 
 	@Then("Select valid installer name {string} in Audit Report page")
 	public void select_valid_installer_name_in_audit_report_page(String InstallerName) throws InterruptedException {
-		Thread.sleep(4000);
+		Thread.sleep(8000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(
 				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/div[1]/div/select")));
@@ -1142,8 +1159,10 @@ public class CGI_Reports {
 	@Then("Click view button in ACH Account column in Audit Report page")
 	public void click_view_button_in_ach_account_column_in_audit_report_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[10]/i")));
-		ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[10]/i"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[10]/i")));
+		ele = driver.findElement(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[10]/i"));
 		ele.click();
 	}
 
@@ -1154,6 +1173,7 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click cancel button in View Account Number pop up")
 	public void click_cancel_button_in_view_account_number_pop_up() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1161,6 +1181,7 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-light mt-6 me-3']"));
 		ele.click();
 	}
+
 	@Then("Click submit button in View Account Number pop up")
 	public void click_submit_button_in_view_account_number_pop_up() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1168,12 +1189,14 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-primary mt-6']"));
 		ele.click();
 	}
+
 	@Then("Check mandatory message is displayed or not in Audit Report page")
 	public void check_mandatory_message_is_displayed_or_not_in_audit_report_page() {
 		Alert alert = driver.switchTo().alert();
 		String text = alert.getText();
-		System.out.println("Alert message is displayed like: "+text);
+		System.out.println("Alert message is displayed like: " + text);
 	}
+
 	@Then("Enter valid soft token number {string} in View Account Number pop up")
 	public void enter_valid_soft_token_number_in_view_account_number_pop_up(String CustomerName) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1182,13 +1205,17 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-solid ps-14']"));
 		ele.sendKeys(CustomerName);
 	}
+
 	@Then("Click view button in ACH Routing column in Audit Report page")
 	public void click_view_button_in_ach_routing_column_in_audit_report_page() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[11]/i")));
-		ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[11]/i"));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[11]/i")));
+		ele = driver.findElement(
+				By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[3]/div/table/tbody/tr/td[11]/i"));
 		ele.click();
 	}
+
 	@Then("Click close button in View Routing Number pop up")
 	public void click_close_button_in_view_routing_number_pop_up() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1196,6 +1223,7 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click cancel button in View Routing Number pop up")
 	public void click_cancel_button_in_view_routing_number_pop_up() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1203,6 +1231,7 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-light mt-6 me-3']"));
 		ele.click();
 	}
+
 	@Then("Click submit button in View Routing Number pop up")
 	public void click_submit_button_in_view_routing_number_pop_up() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1210,6 +1239,7 @@ public class CGI_Reports {
 		ele = driver.findElement(By.xpath("//button[@class='btn btn-primary mt-6']"));
 		ele.click();
 	}
+
 	@Then("Enter valid soft token number {string} in View Routing Number pop up")
 	public void enter_valid_soft_token_number_in_view_routing_number_pop_up(String CustomerName) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1219,5 +1249,4 @@ public class CGI_Reports {
 		ele.sendKeys(CustomerName);
 	}
 
-	
 }

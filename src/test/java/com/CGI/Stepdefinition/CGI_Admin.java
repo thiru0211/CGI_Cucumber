@@ -1238,7 +1238,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.id("reset1"));
 		ele.click();
 	}
-	
+
 	@Then("Check the success message in add IP Whitelist")
 	public void check_the_success_message_in_add_ip_whitelist() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1247,7 +1247,7 @@ public class CGI_Admin {
 		String text = ele.getText();
 		System.out.println("Alert message displayed like: " + text);
 	}
-	
+
 	@And("Click close button in IP Whitelist")
 	public void click_close_button_in_ip_whitelist() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1255,7 +1255,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
-	
+
 	@Then("Click edit button in IP Whitelist")
 	public void click_edit_button_in_ip_whitelist() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1265,6 +1265,7 @@ public class CGI_Admin {
 				"//a[@class='text-hover-primary fs-6  justify-content-center btn-bg-light btn-active-color-primary btn-md cursor-pointer']"));
 		ele.click();
 	}
+
 	@And("Click close button in edit IP Whitelist")
 	public void click_close_button_in_edit_ip_whitelist() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1272,7 +1273,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
-	
+
 	@And("Modify valid details in edit IP Whitelist")
 	public void modify_valid_details_in_edit_ip_whitelist() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1288,9 +1289,9 @@ public class CGI_Admin {
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("ipAddress")));
 		ele1 = driver.findElement(By.id("ipAddress"));
 		ele1.sendKeys(text);
-		
+
 	}
-	
+
 	@Then("Click update button in edit IP Whitelist")
 	public void click_update_button_in_edit_ip_whitelist() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1298,7 +1299,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//button[text()='Update']"));
 		ele.click();
 	}
-	
+
 	@And("Click User Log button")
 	public void click_user_log_button() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1306,15 +1307,16 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//span[text()='User log']"));
 		ele.click();
 	}
-	
+
 	@Then("Enter valid user name {string} in search box in user log")
 	public void enter_valid_user_name_in_search_box_in_user_log(String Name) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']")));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']"));
 		ele.sendKeys(Name);
 	}
-	
+
 	@Then("Click view button in user log")
 	public void click_view_button_in_user_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1322,7 +1324,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//a[@class=' fs-6 btn  btn-sm']"));
 		ele.click();
 	}
-	
+
 	@And("Click back button in user log")
 	public void click_back_button_in_user_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1330,14 +1332,17 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//div[text()='Back']"));
 		ele.click();
 	}
-	
+
 	@And("Click view button in user log in user log")
 	public void click_view_button_in_user_log_in_user_log() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[8]/span/a")));
-		ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[8]/span/a"));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(
+				"/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[8]/span/a")));
+		ele = driver.findElement(By.xpath(
+				"/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div[1]/table/tbody/tr/td[8]/span/a"));
 		ele.click();
 	}
+
 	@Then("Click close button in user log in user log")
 	public void click_close_button_in_user_log_in_user_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1345,7 +1350,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
-	
+
 	@And("Click Event Log button")
 	public void click_event_log_button() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1353,15 +1358,16 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//span[text()='Event log']"));
 		ele.click();
 	}
-	
+
 	@Then("Enter valid user name {string} in search box in Event log")
 	public void enter_valid_user_name_in_search_box_in_event_log(String Name) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']")));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']")));
 		ele = driver.findElement(By.xpath("//input[@class='form-control form-control-white w-250px ps-14 h-40px']"));
 		ele.sendKeys(Name);
 	}
-	
+
 	@Then("Click view button in Event log")
 	public void click_view_button_in_event_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1369,6 +1375,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//a[@class=' fs-6 btn  btn-sm']"));
 		ele.click();
 	}
+
 	@Then("Click close button in Event log")
 	public void click_close_button_in_event_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1376,7 +1383,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
-	
+
 	@And("Click Exception Log button")
 	public void click_exception_log_button() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1384,25 +1391,27 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//span[text()='Exception log']"));
 		ele.click();
 	}
-	
+
 	@Then("Select valid from date in Exception Log")
 	public void select_valid_from_date_in_exception_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/div/input")));
+		wait.until(ExpectedConditions
+				.elementToBeClickable(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/div/input")));
 		ele = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/div/input"));
 		ele.sendKeys("01-01-2024");
 	}
-	
+
 	@Then("Enter valid name {string} in search field in Exception Log")
 	public void enter_valid_name_in_search_field_in_exception_log(String Name) throws InterruptedException {
 		Thread.sleep(2000);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-		wait.until(ExpectedConditions.elementToBeClickable(By.id("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/span[2]/div/input")));
+		wait.until(ExpectedConditions.elementToBeClickable(
+				By.id("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/span[2]/div/input")));
 		ele = driver.findElement(By.id("/html/body/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div/span[2]/div/input"));
 		ele.click();
 		ele.sendKeys(Name);
 	}
-	
+
 	@Then("Click view button in Exception log")
 	public void click_view_button_in_exception_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -1410,7 +1419,7 @@ public class CGI_Admin {
 		ele = driver.findElement(By.xpath("//a[@class=' fs-6 btn  btn-sm']"));
 		ele.click();
 	}
-	
+
 	@Then("Click close button in Exception log")
 	public void click_close_button_in_Exception_log() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));

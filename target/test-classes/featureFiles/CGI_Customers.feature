@@ -2,8 +2,8 @@ Feature: CUSTOMERS
 
   @TC_01
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -19,8 +19,8 @@ Feature: CUSTOMERS
 
   @TC_02
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -29,8 +29,8 @@ Feature: CUSTOMERS
 
   @TC_03
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -42,8 +42,8 @@ Feature: CUSTOMERS
 
   @TC_04
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -55,8 +55,8 @@ Feature: CUSTOMERS
 
   @TC_05
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -70,8 +70,8 @@ Feature: CUSTOMERS
 
   @TC_06
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -85,8 +85,8 @@ Feature: CUSTOMERS
 
   @TC_07
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -101,8 +101,8 @@ Feature: CUSTOMERS
 
   @TC_08
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -116,8 +116,8 @@ Feature: CUSTOMERS
 
   @TC_09
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -132,8 +132,8 @@ Feature: CUSTOMERS
 
   @TC_10
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -145,8 +145,8 @@ Feature: CUSTOMERS
 
   @TC_11
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -163,8 +163,8 @@ Feature: CUSTOMERS
 
   @TC_12
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -186,8 +186,8 @@ Feature: CUSTOMERS
 
   @TC_13
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -207,8 +207,8 @@ Feature: CUSTOMERS
 
   @TC_14
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -224,8 +224,8 @@ Feature: CUSTOMERS
 
   @TC_15
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -242,8 +242,8 @@ Feature: CUSTOMERS
 
   @TC_16
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -261,8 +261,8 @@ Feature: CUSTOMERS
 
   @TC_17
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -278,8 +278,8 @@ Feature: CUSTOMERS
 
   @TC_18
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -295,8 +295,8 @@ Feature: CUSTOMERS
 
   @TC_19
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -313,8 +313,8 @@ Feature: CUSTOMERS
 
   @TC_20
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -330,8 +330,8 @@ Feature: CUSTOMERS
 
   @TC_21
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -350,8 +350,8 @@ Feature: CUSTOMERS
 
   @TC_22
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -367,8 +367,8 @@ Feature: CUSTOMERS
 
   @TC_23
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -384,8 +384,8 @@ Feature: CUSTOMERS
 
   @TC_24
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -401,8 +401,8 @@ Feature: CUSTOMERS
 
   @TC_25
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -421,8 +421,8 @@ Feature: CUSTOMERS
 
   @TC_26
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -438,8 +438,8 @@ Feature: CUSTOMERS
 
   @TC_27
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -455,8 +455,8 @@ Feature: CUSTOMERS
 
   @TC_28
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -472,8 +472,8 @@ Feature: CUSTOMERS
 
   @TC_29
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -490,8 +490,8 @@ Feature: CUSTOMERS
 
   @TC_30
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -509,8 +509,8 @@ Feature: CUSTOMERS
 
   @TC_31
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -527,8 +527,8 @@ Feature: CUSTOMERS
 
   @TC_32
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -544,8 +544,8 @@ Feature: CUSTOMERS
 
   @TC_33
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -563,8 +563,8 @@ Feature: CUSTOMERS
 
   @TC_34
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -580,8 +580,8 @@ Feature: CUSTOMERS
 
   @TC_35
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -596,8 +596,8 @@ Feature: CUSTOMERS
 
   @TC_36
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -616,8 +616,8 @@ Feature: CUSTOMERS
 
   @TC_37
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -634,8 +634,8 @@ Feature: CUSTOMERS
 
   @TC_38
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -655,8 +655,8 @@ Feature: CUSTOMERS
 
   @TC_39
   Scenario: Customers:List:RollBack
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -676,8 +676,8 @@ Feature: CUSTOMERS
 
   @TC_39
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -693,8 +693,8 @@ Feature: CUSTOMERS
 
   @TC_40
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -711,8 +711,8 @@ Feature: CUSTOMERS
 
   @TC_41
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -731,8 +731,8 @@ Feature: CUSTOMERS
 
   @TC_42
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -749,8 +749,8 @@ Feature: CUSTOMERS
 
   @TC_43
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -766,8 +766,8 @@ Feature: CUSTOMERS
 
   @TC_44
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -783,8 +783,8 @@ Feature: CUSTOMERS
 
   @TC_45
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -801,8 +801,8 @@ Feature: CUSTOMERS
 
   @TC_46
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -816,8 +816,8 @@ Feature: CUSTOMERS
 
   @TC_47
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -833,8 +833,8 @@ Feature: CUSTOMERS
 
   @TC_48
   Scenario: Customers:List
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click List button
@@ -848,8 +848,8 @@ Feature: CUSTOMERS
 
   @TC_49
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -865,8 +865,8 @@ Feature: CUSTOMERS
 
   @TC_50
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -876,8 +876,8 @@ Feature: CUSTOMERS
 
   @TC_51
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -890,8 +890,8 @@ Feature: CUSTOMERS
 
   @TC_52
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -909,8 +909,8 @@ Feature: CUSTOMERS
 
   @TC_53
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -924,8 +924,8 @@ Feature: CUSTOMERS
 
   @TC_54
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -948,8 +948,8 @@ Feature: CUSTOMERS
 
   @TC_55
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -965,8 +965,8 @@ Feature: CUSTOMERS
 
   @TC_56
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -981,8 +981,8 @@ Feature: CUSTOMERS
 
   @TC_57
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -997,8 +997,8 @@ Feature: CUSTOMERS
 
   @TC_58
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1013,8 +1013,8 @@ Feature: CUSTOMERS
 
   @TC_59
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1029,8 +1029,8 @@ Feature: CUSTOMERS
 
   @TC_60
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1046,8 +1046,8 @@ Feature: CUSTOMERS
 
   @TC_61
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1063,8 +1063,8 @@ Feature: CUSTOMERS
 
   @TC_62
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1082,8 +1082,8 @@ Feature: CUSTOMERS
 
   @TC_63
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1100,8 +1100,8 @@ Feature: CUSTOMERS
 
   @TC_64
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1117,8 +1117,8 @@ Feature: CUSTOMERS
 
   @TC_65
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1137,8 +1137,8 @@ Feature: CUSTOMERS
 
   @TC_66
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1155,8 +1155,8 @@ Feature: CUSTOMERS
 
   @TC_67
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1172,8 +1172,8 @@ Feature: CUSTOMERS
 
   @TC_68
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1193,8 +1193,8 @@ Feature: CUSTOMERS
 
   @TC_69
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1212,8 +1212,8 @@ Feature: CUSTOMERS
 
   @TC_70
   Scenario: Customers:ACH Form
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form button
@@ -1232,8 +1232,8 @@ Feature: CUSTOMERS
 
   @TC_71
   Scenario: Customers:ACH Form Upload
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form upload button
@@ -1242,8 +1242,8 @@ Feature: CUSTOMERS
 
   @TC_72
   Scenario: Customers:ACH Form Upload
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form upload button
@@ -1253,8 +1253,8 @@ Feature: CUSTOMERS
 
   @TC_73
   Scenario: Customers:ACH Form Upload
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form upload button
@@ -1264,8 +1264,8 @@ Feature: CUSTOMERS
 
   @TC_74
   Scenario: Customers:ACH Form Upload
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form upload button
@@ -1276,8 +1276,8 @@ Feature: CUSTOMERS
 
   @TC_75
   Scenario: Customers:ACH Form Upload
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click ACH Form upload button
@@ -1286,8 +1286,8 @@ Feature: CUSTOMERS
 
   @TC_76
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1300,8 +1300,8 @@ Feature: CUSTOMERS
 
   @TC_77
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1312,8 +1312,8 @@ Feature: CUSTOMERS
 
   @TC_78
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1325,8 +1325,8 @@ Feature: CUSTOMERS
 
   @TC_79
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1341,8 +1341,8 @@ Feature: CUSTOMERS
 
   @TC_80
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1361,8 +1361,8 @@ Feature: CUSTOMERS
 
   @TC_81
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1381,8 +1381,8 @@ Feature: CUSTOMERS
 
   @TC_82
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1398,8 +1398,8 @@ Feature: CUSTOMERS
 
   @TC_83
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1415,8 +1415,8 @@ Feature: CUSTOMERS
 
   @TC_84
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1434,8 +1434,8 @@ Feature: CUSTOMERS
 
   @TC_85
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1452,8 +1452,8 @@ Feature: CUSTOMERS
 
   @TC_86
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1469,8 +1469,8 @@ Feature: CUSTOMERS
 
   @TC_87
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1489,8 +1489,8 @@ Feature: CUSTOMERS
 
   @TC_88
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1505,8 +1505,8 @@ Feature: CUSTOMERS
 
   @TC_89
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1522,8 +1522,8 @@ Feature: CUSTOMERS
 
   @TC_90
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1540,8 +1540,8 @@ Feature: CUSTOMERS
 
   @TC_91
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1559,8 +1559,8 @@ Feature: CUSTOMERS
 
   @TC_92
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1578,8 +1578,8 @@ Feature: CUSTOMERS
 
   @TC_93
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1599,8 +1599,8 @@ Feature: CUSTOMERS
     Then Close the Customers Page
   @TC_94
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1613,8 +1613,8 @@ Feature: CUSTOMERS
     Then Close the Customers Page
   @TC_95
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1627,8 +1627,8 @@ Feature: CUSTOMERS
     Then Close the Customers Page
   @TC_96
   Scenario: Customers:Invoice Pay
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Invoice Pay button
@@ -1647,8 +1647,8 @@ Feature: CUSTOMERS
 
   @TC_97
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1660,8 +1660,8 @@ Feature: CUSTOMERS
 
   @TC_98
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1672,8 +1672,8 @@ Feature: CUSTOMERS
 
   @TC_99
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1689,8 +1689,8 @@ Feature: CUSTOMERS
 
   @TC_100
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1706,8 +1706,8 @@ Feature: CUSTOMERS
 
   @TC_101
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1722,8 +1722,8 @@ Feature: CUSTOMERS
 
   @TC_102
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1740,8 +1740,8 @@ Feature: CUSTOMERS
 
   @TC_103
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1759,8 +1759,8 @@ Feature: CUSTOMERS
 
   @TC_104
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1780,8 +1780,8 @@ Feature: CUSTOMERS
 
   @TC_105
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1807,8 +1807,8 @@ Feature: CUSTOMERS
 
   @TC_106
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1829,8 +1829,8 @@ Feature: CUSTOMERS
 
   @TC_107
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1854,8 +1854,8 @@ Feature: CUSTOMERS
 
   @TC_108
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1879,8 +1879,8 @@ Feature: CUSTOMERS
 
   @TC_109
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1903,8 +1903,8 @@ Feature: CUSTOMERS
 
   @TC_110
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1928,8 +1928,8 @@ Feature: CUSTOMERS
 
   @TC_111
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1951,8 +1951,8 @@ Feature: CUSTOMERS
 
   @TC_112
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1975,8 +1975,8 @@ Feature: CUSTOMERS
 
   @TC_113
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -1999,8 +1999,8 @@ Feature: CUSTOMERS
 
   @TC_114
   Scenario: Customers:Create Invoice
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Create Invoice button
@@ -2026,8 +2026,8 @@ Feature: CUSTOMERS
 
   @TC_115
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2036,8 +2036,8 @@ Feature: CUSTOMERS
 
   @TC_116
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2047,8 +2047,8 @@ Feature: CUSTOMERS
 
   @TC_117
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2059,8 +2059,8 @@ Feature: CUSTOMERS
 
   @TC_118
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2072,8 +2072,8 @@ Feature: CUSTOMERS
 
   @TC_119
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2088,8 +2088,8 @@ Feature: CUSTOMERS
 
   @TC_120
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2102,8 +2102,8 @@ Feature: CUSTOMERS
 
   @TC_121
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2117,8 +2117,8 @@ Feature: CUSTOMERS
 
   @TC_122
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2134,8 +2134,8 @@ Feature: CUSTOMERS
 
   @TC_123
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2152,8 +2152,8 @@ Feature: CUSTOMERS
 
   @TC_124
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2172,8 +2172,8 @@ Feature: CUSTOMERS
 
   @TC_125
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2201,8 +2201,8 @@ Feature: CUSTOMERS
 
   @TC_126
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2217,8 +2217,8 @@ Feature: CUSTOMERS
 
   @TC_127
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2230,8 +2230,8 @@ Feature: CUSTOMERS
 
   @TC_128
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2246,8 +2246,8 @@ Feature: CUSTOMERS
 
   @TC_129
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button
@@ -2259,8 +2259,8 @@ Feature: CUSTOMERS
 
   @TC_130
   Scenario: Customers:Check Payments
-    Given To Check Customers User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Customers User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Customers User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Customers
     Then Click the Customers button
     And Click Check Payments button

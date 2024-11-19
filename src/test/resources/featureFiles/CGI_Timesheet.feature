@@ -2,8 +2,8 @@ Feature: TIMESHEET
 
   @TC_01
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -16,8 +16,8 @@ Feature: TIMESHEET
 
   @TC_02
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -33,8 +33,8 @@ Feature: TIMESHEET
 
   @TC_03
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -51,8 +51,8 @@ Feature: TIMESHEET
 
   @TC_04
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -63,8 +63,8 @@ Feature: TIMESHEET
 
   @TC_05
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -75,8 +75,8 @@ Feature: TIMESHEET
 
   @TC_06
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -89,8 +89,8 @@ Feature: TIMESHEET
 
   @TC_07
   Scenario: Timesheet:My Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click My Timesheet button
@@ -103,8 +103,8 @@ Feature: TIMESHEET
 
   @TC_08
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -117,8 +117,8 @@ Feature: TIMESHEET
 
   @TC_09
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -134,8 +134,8 @@ Feature: TIMESHEET
 
   @TC_10
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -152,8 +152,8 @@ Feature: TIMESHEET
 
   @TC_11
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -164,8 +164,8 @@ Feature: TIMESHEET
 
   @TC_12
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -176,8 +176,8 @@ Feature: TIMESHEET
 
   @TC_13
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button
@@ -190,8 +190,8 @@ Feature: TIMESHEET
 
   @TC_14
   Scenario: Timesheet:Group Timesheet
-    Given To Check Timesheet User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Timesheet User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Timesheet User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Timesheet
     Then Click the Timesheet button
     And Click Group Timesheet button

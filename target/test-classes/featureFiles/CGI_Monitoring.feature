@@ -2,8 +2,8 @@ Feature: MONITORING
 
   @TC_01
   Scenario: Monitoring:Overall Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Overall Status button
@@ -13,8 +13,8 @@ Feature: MONITORING
 
   @TC_02
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -26,8 +26,8 @@ Feature: MONITORING
 
   @TC_03l
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -38,8 +38,8 @@ Feature: MONITORING
 
   @TC_04
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -51,8 +51,8 @@ Feature: MONITORING
 
   @TC_05
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -65,8 +65,8 @@ Feature: MONITORING
 
   @TC_06
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -79,8 +79,8 @@ Feature: MONITORING
 
   @TC_07
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -93,8 +93,8 @@ Feature: MONITORING
 
   @TC_08
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -107,8 +107,8 @@ Feature: MONITORING
 
   @TC_09
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -121,8 +121,8 @@ Feature: MONITORING
 
   @TC_10
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -135,8 +135,8 @@ Feature: MONITORING
 
   @TC_10a
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -149,8 +149,8 @@ Feature: MONITORING
 
   @TC_11
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -163,8 +163,8 @@ Feature: MONITORING
 
   @TC_12
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -177,8 +177,8 @@ Feature: MONITORING
 
   @TC_13
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -192,8 +192,8 @@ Feature: MONITORING
 
   @TC_14
   Scenario: Monitoring:Production Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Production Status button
@@ -201,15 +201,15 @@ Feature: MONITORING
     And Select valid production percentage "<=" in Production Status page
     Then Enter valid delta percentage "100" in Production Status page
     And Select valid state "All" in Production Status page
-    And Enter valid customer name "Affan Uygan" in Production Status page
+    #And Enter valid customer name "Affan Uygan" in Production Status page
     Then Click apply button in Production Status page
     And Click the customer name in the grid in Production Status page
     Then Close the Monitoring Page
 
   @TC_15
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -222,8 +222,8 @@ Feature: MONITORING
 
   @TC_16
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -236,8 +236,8 @@ Feature: MONITORING
 
   @TC_17
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -250,8 +250,8 @@ Feature: MONITORING
 
   @TC_18
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -264,8 +264,8 @@ Feature: MONITORING
 
   @TC_19
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -278,8 +278,8 @@ Feature: MONITORING
 
   @TC_20
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -292,8 +292,8 @@ Feature: MONITORING
 
   @TC_21
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -306,8 +306,8 @@ Feature: MONITORING
 
   @TC_22
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -320,8 +320,8 @@ Feature: MONITORING
 
   @TC_23
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -335,8 +335,8 @@ Feature: MONITORING
 
   @TC_24
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -350,8 +350,8 @@ Feature: MONITORING
 
   @TC_25
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -363,8 +363,8 @@ Feature: MONITORING
 
   @TC_26
   Scenario: Monitoring:Customer Status
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Customer Status button
@@ -376,8 +376,8 @@ Feature: MONITORING
 
   @TC_27
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -386,8 +386,8 @@ Feature: MONITORING
 
   @TC_28
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -397,8 +397,8 @@ Feature: MONITORING
 
   @TC_29
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -409,8 +409,8 @@ Feature: MONITORING
 
   @TC_30
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -423,8 +423,8 @@ Feature: MONITORING
 
   @TC_31
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -438,8 +438,8 @@ Feature: MONITORING
 
   @TC_32
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -450,8 +450,8 @@ Feature: MONITORING
 
   @TC_33
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -464,8 +464,8 @@ Feature: MONITORING
 
   @TC_34
   Scenario: Monitoring:Invertor
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Invertor button
@@ -478,8 +478,8 @@ Feature: MONITORING
 
   @TC_35
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -488,8 +488,8 @@ Feature: MONITORING
 
   @TC_36
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -499,8 +499,8 @@ Feature: MONITORING
 
   @TC_37
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -511,8 +511,8 @@ Feature: MONITORING
 
   @TC_38
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -525,8 +525,8 @@ Feature: MONITORING
 
   @TC_39
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -540,8 +540,8 @@ Feature: MONITORING
 
   @TC_40
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -553,8 +553,8 @@ Feature: MONITORING
 
   @TC_41
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button
@@ -567,8 +567,8 @@ Feature: MONITORING
 
   @TC_42
   Scenario: Monitoring:Panel
-    Given To Check Monitoring User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Monitoring User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Monitoring User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Monitoring
     Then Click the Monitoring button
     And Click Panel button

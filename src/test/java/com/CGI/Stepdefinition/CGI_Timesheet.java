@@ -91,7 +91,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//span[text()='My Timesheet']"));
 		ele.click();
 	}
-	
+
 	@Then("Click unregistered date in the calendar")
 	public void click_unregistered_date_in_the_calendar() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -99,6 +99,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//label[text()='01']"));
 		ele.click();
 	}
+
 	@And("Click save button in add timesheet")
 	public void click_save_button_in_add_timesheet() throws InterruptedException {
 		Thread.sleep(2000);
@@ -107,6 +108,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
+
 	@Then("Check alert message is displayed or not in add timesheet")
 	public void check_alert_message_is_displayed_or_not_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -122,7 +124,7 @@ public class CGI_Timesheet {
 			System.out.println("No alert message is displayed");
 		}
 	}
-	
+
 	@And("Select valid start time in add timesheet")
 	public void select_valid_start_time_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -131,6 +133,7 @@ public class CGI_Timesheet {
 		ele.sendKeys("10:00 AM");
 		ele.sendKeys(Keys.ENTER);
 	}
+
 	@Then("Select valid end time in add timesheet")
 	public void select_valid_end_time_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -139,14 +142,16 @@ public class CGI_Timesheet {
 		ele.sendKeys("14:00 PM");
 		ele.sendKeys(Keys.ENTER);
 	}
+
 	@And("Select valid task type in add timesheet")
 	public void select_valid_task_type_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("tasktype")));
 		ele = driver.findElement(By.id("tasktype"));
-		Select sel=new Select(ele);
+		Select sel = new Select(ele);
 		sel.selectByVisibleText("Test task");
 	}
+
 	@Then("Enter valid description in add timesheet")
 	public void enter_valid_description_in_add_timesheet() throws InterruptedException {
 		Thread.sleep(2000);
@@ -155,6 +160,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//textarea[@name='description']"));
 		ele.sendKeys("Test");
 	}
+
 	@And("Click clear button in add timesheet")
 	public void click_clear_button_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -168,15 +174,14 @@ public class CGI_Timesheet {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[1]/div[1]/div/div/div[1]/div[2]")));
 		ele = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/div[1]/div[2]"));
-		if(ele.isDisplayed()) {
+		if (ele.isDisplayed()) {
 			String text = ele.getText();
-			System.out.println("Alert message displayed like: "+text);
-		}
-		else {
+			System.out.println("Alert message displayed like: " + text);
+		} else {
 			System.out.println("No success message is displayed");
 		}
 	}
-	
+
 	@Then("Click close button in add timesheet")
 	public void click_close_button_in_add_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -184,6 +189,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//button[@class='ant-modal-close']"));
 		ele.click();
 	}
+
 	@Then("Click actions button in timesheet")
 	public void click_actions_button_in_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -191,6 +197,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//button[text()='Actions']"));
 		ele.click();
 	}
+
 	@And("Click back button in timesheet")
 	public void click_back_button_in_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -198,7 +205,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//div[text()='Back']"));
 		ele.click();
 	}
-	
+
 	@Then("Click add timesheet button in timesheet")
 	public void click_add_timesheet_button_in_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -206,7 +213,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//div[text()='Add Timesheet']"));
 		ele.click();
 	}
-	
+
 	@Then("Click registered date in the calendar")
 	public void click_registered_date_in_the_calendar() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -214,7 +221,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//label[text()='01']"));
 		ele.click();
 	}
-	
+
 	@Then("Click edit button in the calendar")
 	public void click_edit_button_in_the_calendar() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -222,7 +229,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//td[@class='cursor-pointer']"));
 		ele.click();
 	}
-	
+
 	@Then("Click clear button in edit timesheet")
 	public void click_clear_button_in_edit_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -230,7 +237,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//button[text()='Clear']"));
 		ele.click();
 	}
-	
+
 	@Then("Click save button in edit timesheet")
 	public void click_save_button_in_edit_timesheet() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -238,7 +245,7 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//button[text()='Save']"));
 		ele.click();
 	}
-	
+
 	@Then("Modify valid details in edit timesheet")
 	public void modify_valid_details_in_edit_timesheet() throws InterruptedException {
 		Thread.sleep(2000);
@@ -253,7 +260,7 @@ public class CGI_Timesheet {
 		}
 		ele.sendKeys(text);
 	}
-	
+
 	@Then("Click Group Timesheet button")
 	public void click_group_timesheet_button() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -261,7 +268,5 @@ public class CGI_Timesheet {
 		ele = driver.findElement(By.xpath("//span[text()='Group TimeSheet']"));
 		ele.click();
 	}
-	
-
 
 }

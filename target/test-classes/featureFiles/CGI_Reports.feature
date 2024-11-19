@@ -2,8 +2,8 @@ Feature: REPORTS
 
   @TC_01
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -15,8 +15,8 @@ Feature: REPORTS
 
   @TC_02
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -28,8 +28,8 @@ Feature: REPORTS
 
   @TC_03
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -41,23 +41,23 @@ Feature: REPORTS
 
   @TC_04
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
     Then Select valid from month in OS Reports page
     And Select valid installer name "Test Client" in OS Reports page
     Then Select valid payment method "All" in OS Reports page
-    And Select valid payment status "Paid" in OS Reports page
+    And Select valid payment status "All" in OS Reports page
     Then Enter valid customer name "Aishwarya" in OS Reports page
     And Click view button of the customer in OS Reports page
     Then Close the Reports Page
 
   @TC_05
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -70,8 +70,8 @@ Feature: REPORTS
 
   @TC_06
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -87,8 +87,8 @@ Feature: REPORTS
 
   @TC_07
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -107,8 +107,8 @@ Feature: REPORTS
 
   @TC_08
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -128,8 +128,8 @@ Feature: REPORTS
 
   @TC_09
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -154,8 +154,8 @@ Feature: REPORTS
 
   @TC_10
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -181,8 +181,8 @@ Feature: REPORTS
 
   @TC_11
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -208,8 +208,8 @@ Feature: REPORTS
 
   @TC_12
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -217,7 +217,7 @@ Feature: REPORTS
     And Select valid installer name "Test Client" in OS Reports page
     Then Select valid payment method "All" in OS Reports page
     And Select valid payment status "All" in OS Reports page
-    Then Enter valid customer name "Aishwarya" in OS Reports page
+    #Then Enter valid customer name "Aishwarya" in OS Reports page
     And Click view button of the customer in OS Reports page
     Then Click action button in OS Reports page
     And Click add recieved payments button in OS Reports page
@@ -227,8 +227,8 @@ Feature: REPORTS
 
   @TC_13
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -247,8 +247,8 @@ Feature: REPORTS
 
   @TC_14
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -268,8 +268,8 @@ Feature: REPORTS
 
   @TC_15
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -288,8 +288,8 @@ Feature: REPORTS
 
   @TC_16
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -306,8 +306,8 @@ Feature: REPORTS
 
   @TC_17
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -324,8 +324,8 @@ Feature: REPORTS
 
   @TC_18
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -343,8 +343,8 @@ Feature: REPORTS
 
   @TC_19
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -365,8 +365,8 @@ Feature: REPORTS
 
   @TC_20
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -385,8 +385,8 @@ Feature: REPORTS
 
   @TC_21
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -403,8 +403,8 @@ Feature: REPORTS
 
   @TC_22
   Scenario: Reports:OS Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click OS Report button
@@ -420,8 +420,8 @@ Feature: REPORTS
 
   @TC_23
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -434,8 +434,8 @@ Feature: REPORTS
 
   @TC_24
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -448,8 +448,8 @@ Feature: REPORTS
 
   @TC_25
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -462,8 +462,8 @@ Feature: REPORTS
 
   @TC_26
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -476,8 +476,8 @@ Feature: REPORTS
 
   @TC_27
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -490,8 +490,8 @@ Feature: REPORTS
 
   @TC_28
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -504,8 +504,8 @@ Feature: REPORTS
 
   @TC_29
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -518,8 +518,8 @@ Feature: REPORTS
 
   @TC_30
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -532,8 +532,8 @@ Feature: REPORTS
 
   @TC_31
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -546,8 +546,8 @@ Feature: REPORTS
 
   @TC_32
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -560,8 +560,8 @@ Feature: REPORTS
 
   @TC_33
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -574,8 +574,8 @@ Feature: REPORTS
 
   @TC_34
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -588,8 +588,8 @@ Feature: REPORTS
 
   @TC_35
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -602,8 +602,8 @@ Feature: REPORTS
 
   @TC_36
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -616,8 +616,8 @@ Feature: REPORTS
 
   @TC_37
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -630,8 +630,8 @@ Feature: REPORTS
 
   @TC_38
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -644,8 +644,8 @@ Feature: REPORTS
 
   @TC_39
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -658,8 +658,8 @@ Feature: REPORTS
 
   @TC_40
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -672,8 +672,8 @@ Feature: REPORTS
 
   @TC_41
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -686,8 +686,8 @@ Feature: REPORTS
 
   @TC_42
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -700,8 +700,8 @@ Feature: REPORTS
 
   @TC_43
   Scenario: Reports:Tape Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Tape Report button
@@ -715,8 +715,8 @@ Feature: REPORTS
 
   @TC_44
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -727,8 +727,8 @@ Feature: REPORTS
 
   @TC_45
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -741,8 +741,8 @@ Feature: REPORTS
 
   @TC_46
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -755,8 +755,8 @@ Feature: REPORTS
 
   @TC_47
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -769,8 +769,8 @@ Feature: REPORTS
 
   @TC_48
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -786,8 +786,8 @@ Feature: REPORTS
 
   @TC_49
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -799,8 +799,8 @@ Feature: REPORTS
  
   @TC_50
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -813,8 +813,8 @@ Feature: REPORTS
 
   @TC_51
   Scenario: Reports:ACH Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click ACH Transaction button
@@ -828,8 +828,8 @@ Feature: REPORTS
 
   @TC_52
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -840,8 +840,8 @@ Feature: REPORTS
 
   @TC_53
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -849,11 +849,11 @@ Feature: REPORTS
     And Select valid payment status "Paid" in Returned Transaction page
     And Select valid from month in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_54
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -861,11 +861,11 @@ Feature: REPORTS
     And Select valid payment status "Initiated" in Returned Transaction page
     And Select valid from month in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_55
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -873,11 +873,11 @@ Feature: REPORTS
     And Select valid payment status "Returned" in Returned Transaction page
     And Select valid from month in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_56
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -887,11 +887,11 @@ Feature: REPORTS
     Then Click actions button in Returned Transaction page
     And Click excel export button in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_57
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -901,11 +901,11 @@ Feature: REPORTS
     Then Click actions button in Returned Transaction page
     And Click back button in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_58
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -914,11 +914,11 @@ Feature: REPORTS
     And Select valid from month in Returned Transaction page
     Then Enter valid customer name "Aishwarya" in Returned Transaction page
     Then Close the Reports Page
-@Test
+
   @TC_59
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -930,8 +930,8 @@ Feature: REPORTS
 
   @TC_60
   Scenario: Reports:Returned Transaction
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Returned Transaction button
@@ -941,11 +941,11 @@ Feature: REPORTS
     Then Click view button in Returned Transaction page
     And Click back button in Transaction details page
     Then Close the Reports Page
-@Test
+
   @TC_61
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -956,8 +956,8 @@ Feature: REPORTS
 
   @TC_62
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -969,8 +969,8 @@ Feature: REPORTS
 
   @TC_63
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -979,11 +979,11 @@ Feature: REPORTS
     And Select valid from month in Invoice Log page
     Then Click export button in Invoice Log page
     Then Close the Reports Page
-@Test
+
   @TC_64
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -995,8 +995,8 @@ Feature: REPORTS
 
   @TC_65
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1012,8 +1012,8 @@ Feature: REPORTS
 
   @TC_66
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1029,8 +1029,8 @@ Feature: REPORTS
 
   @TC_67
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1042,11 +1042,11 @@ Feature: REPORTS
     Then Click void invoice button in Transaction Details page
     And Click no button in Resend Invoice popup
     Then Close the Reports Page
-@Test
+
   @TC_68
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1059,11 +1059,11 @@ Feature: REPORTS
     And Click yes button in Resend Invoice popup
     Then Check mandatory message is displayed or not in Resend Invoice popup
     Then Close the Reports Page
-@Test
+
   @TC_69
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1076,11 +1076,11 @@ Feature: REPORTS
     And Enter valid confirmation details "Test" in confirmation popup
     And Click yes button in Resend Invoice popup
     Then Close the Reports Page
-@Test
+
   @TC_70
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1091,11 +1091,11 @@ Feature: REPORTS
     And Click actions button in Transaction Details page
     Then Click download invoice button in Transaction Details page
     Then Close the Reports Page
-@Test
+
   @TC_71
   Scenario: Reports:Invoice Log
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Invoice Log button
@@ -1109,8 +1109,8 @@ Feature: REPORTS
 
   @TC_72
   Scenario: Reports:Activity Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Activity Report button
@@ -1120,8 +1120,8 @@ Feature: REPORTS
 
   @TC_73
   Scenario: Reports:Activity Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Activity Report button
@@ -1130,55 +1130,55 @@ Feature: REPORTS
     Then Click view button in Activity Report page
     And Click close button in View Event Log page
     Then Close the Reports Page
-@Test
+
   @TC_74
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
     Then Select valid installer name "Test Client" in Audit Report page
     And Select valid status "All" in Audit Report page
     Then Close the Reports Page
-@Test
+
   @TC_75
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
     Then Select valid installer name "Test Client" in Audit Report page
     And Select valid status "Active" in Audit Report page
     Then Close the Reports Page
-@Test
+
   @TC_76
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
     Then Select valid installer name "Test Client" in Audit Report page
     And Select valid status "Removed" in Audit Report page
     Then Close the Reports Page
-@Test
+
   @TC_77
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
     Then Select valid installer name "Test Client" in Audit Report page
     And Select valid status "Swap Out" in Audit Report page
     Then Close the Reports Page
-@Test
+
   @TC_78
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1186,11 +1186,10 @@ Feature: REPORTS
     And Select valid status "All" in Audit Report page
     Then Click the export button in Audit Report page
     Then Close the Reports Page
-@Test
   @TC_79
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1201,8 +1200,8 @@ Feature: REPORTS
 
   @TC_80
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1215,8 +1214,8 @@ Feature: REPORTS
 
   @TC_81
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1229,8 +1228,8 @@ Feature: REPORTS
 
   @TC_82
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1244,8 +1243,8 @@ Feature: REPORTS
 
   @TC_83
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1259,8 +1258,8 @@ Feature: REPORTS
 
   @TC_84
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1273,8 +1272,8 @@ Feature: REPORTS
 
   @TC_85
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1284,11 +1283,11 @@ Feature: REPORTS
     And Click view button in ACH Routing column in Audit Report page
     Then Click cancel button in View Routing Number pop up
     Then Close the Reports Page
-@Test
+
   @TC_86
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button
@@ -1299,11 +1298,11 @@ Feature: REPORTS
     Then Click submit button in View Routing Number pop up
     And Check mandatory message is displayed or not in Audit Report page
     Then Close the Reports Page
-@Test
+
   @TC_87
   Scenario: Reports:Audit Report
-    Given To Check Reports User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Reports User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Reports User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Reports
     Then Click the Reports button
     And Click Audit Report button

@@ -2,8 +2,8 @@ Feature: DASHBOARD
 
   @TC_01
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -13,8 +13,8 @@ Feature: DASHBOARD
 
   @TC_02
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -25,8 +25,8 @@ Feature: DASHBOARD
 
   @TC_03
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -38,8 +38,8 @@ Feature: DASHBOARD
 
   @TC_04
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -51,8 +51,8 @@ Feature: DASHBOARD
 
   @TC_05
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -64,8 +64,8 @@ Feature: DASHBOARD
 
   @TC_06
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -77,8 +77,8 @@ Feature: DASHBOARD
 
   @TC_07
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -90,8 +90,8 @@ Feature: DASHBOARD
 
   @TC_08
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -103,8 +103,8 @@ Feature: DASHBOARD
 
   @TC_09
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -116,8 +116,8 @@ Feature: DASHBOARD
 
   @TC_10
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -129,8 +129,8 @@ Feature: DASHBOARD
 
   @TC_11
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -142,8 +142,8 @@ Feature: DASHBOARD
 
   @TC_12
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -155,8 +155,8 @@ Feature: DASHBOARD
 
   @TC_13
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -168,8 +168,8 @@ Feature: DASHBOARD
 
   @TC_14
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -181,8 +181,8 @@ Feature: DASHBOARD
 
   @TC_15
   Scenario: Dashboard:ACH
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH button
@@ -194,8 +194,8 @@ Feature: DASHBOARD
 
   @TC_16
   Scenario: Dashboard:ACH Returned
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH Returned button
@@ -205,8 +205,8 @@ Feature: DASHBOARD
 
   @TC_17
   Scenario: Dashboard:ACH Returned
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH Returned button
@@ -218,8 +218,8 @@ Feature: DASHBOARD
 
   @TC_18
   Scenario: Dashboard:ACH Returned
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH Returned button
@@ -230,8 +230,8 @@ Feature: DASHBOARD
 
   @TC_19
   Scenario: Dashboard:ACH Returned
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH Returned button
@@ -243,8 +243,8 @@ Feature: DASHBOARD
 
   @TC_20
   Scenario: Dashboard:ACH Returned
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click ACH Returned button
@@ -256,8 +256,8 @@ Feature: DASHBOARD
 
   @TC_21
   Scenario: Dashboard:Investor
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click Investor button in dashboard
@@ -267,8 +267,8 @@ Feature: DASHBOARD
 
   @TC_22
   Scenario: Dashboard:Investor
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click Investor button in dashboard
@@ -280,8 +280,8 @@ Feature: DASHBOARD
 
   @TC_23
   Scenario: Dashboard:Investor
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click Investor button in dashboard
@@ -292,8 +292,8 @@ Feature: DASHBOARD
 
   @TC_24
   Scenario: Dashboard:Investor
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click Investor button in dashboard
@@ -304,8 +304,8 @@ Feature: DASHBOARD
 
  @TC_25
   Scenario: Dashboard:Investor
-    Given To Check Dashboard User is navigating to CGI URL is "http://192.168.1.36/CGI/auth"
-    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@55"
+    Given To Check Dashboard User is navigating to CGI URL is "https://www.hedgeonline.us/RCGI/auth"
+    When To Check Dashboard User Enter username and password are "thirumaran0828@outlook.com" and "Thirumaran@1234"
     And click the Signin button To Check Dashboard
     Then Click the Dashboard button
     And Click Investor button in dashboard
